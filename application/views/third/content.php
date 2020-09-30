@@ -170,21 +170,3 @@
 	<!--=============================================
 	=            cosmetics home category area         =
 	=============================================-->
-
-	<div class="cosmetics-category-area mb-70 mb-md-60 mb-sm-60">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 offset-lg-1 col-md-6">
-					<!--=======  single category  =======-->
-
-			
-
-					<!--=======  End of single category  =======-->
-				</div>
-
-				<div class="col-lg-6 offset-lg-1 col-md-6 mt-100">
-					<!--=======  revulation banner area  =======-->
-
-
-					<!--=======  End of revulation banner area  =======-->
-				</div>

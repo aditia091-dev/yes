@@ -1,22 +1,9 @@
 
-
-
-					</div>
-
-					<!--=======  End of testmonial slider container  =======-->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--=====  End of single item testimonial area  ======-->
-
-
 	<!--=============================================
 	=            instagram slider area         =
 	=============================================-->
 
-	<div class="instagram-slider-area mb-100">
+	<div class="instagram-slider-area mb-30">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-8 order-2 order-lg-1">
@@ -60,7 +47,7 @@
 	=            footer area         =
 	=============================================-->
 
-	<div class="footer-container footer-one pt-100 pb-50">
+	<div class="footer-container footer-one pt-20 pb-20">
 		<div class="container wide">
 			<div class="row">
 				<div class="col footer-single-widget">

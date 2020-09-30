@@ -3,7 +3,7 @@
 	=            product category container two         =
 	=============================================-->
 
-  <div class="product-category-container mb-90 mb-md-85 mb-sm-85">
+  <div class="product-category-container mb-20 mb-md-15 mb-sm-15">
     <div class="container">
       <div class="row">
           <!--=======  product category wrapper  =======-->
