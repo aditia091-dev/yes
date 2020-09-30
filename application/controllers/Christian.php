@@ -8,4 +8,10 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
 		$this->load->view('landing/christianbreton',$data);
 	}
+
+	public function gold()
+	{
+		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$this->load->view('landing/gold',$data);
+	}
 }

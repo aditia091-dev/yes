@@ -42,5 +42,40 @@
 
 	<!-- Modernizer JS -->
 	<script src="<?php base_url();?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	<style type="text/css">
+		.konten1 {
+			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+		}
+		.konten2 {
+			background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 770px; margin-bottom: 50px; margin-top: 50px;
+		}
+		.konten3 {
+			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+		}
+		@media only screen and (min-width: 350px) and (max-width: 767px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 50px; margin-bottom: 50px; margin-top: 50px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+			}
+		}
+
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 300px; height: 250px; margin-left: 400px; margin-bottom: 50px; margin-top: 50px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+			}
+		}
+
+	</style>
 
 </head>
