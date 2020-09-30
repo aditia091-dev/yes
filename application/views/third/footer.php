@@ -691,7 +691,7 @@
 		$(document).ready(function(){
 			$("#hide").hide();
 			$("#loading").delay(3000).fadeOut('slow');
-			$("#hide").fadeIn('slow');
+			$("#hide").delay(3000).fadeIn('slow');
 		})
 	</script>
 
