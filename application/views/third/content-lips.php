@@ -33,7 +33,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30"  style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30"  style="background-color: #f3b8b7; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -98,7 +98,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30" style="background-color: #f3b8b7; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -163,7 +163,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30" style="background-color: #f3b8b7; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"

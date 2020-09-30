@@ -33,7 +33,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30"  style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30"  style="background-color: #9372ae; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -64,7 +64,7 @@
 							data-frames='[{"delay":1300,"speed":1180,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #7e7e7e; letter-spacing: 0.5px;font-family:Work Sans;">
+							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #333333; letter-spacing: 0.5px;font-family:Work Sans;">
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
@@ -98,7 +98,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30" style="background-color: #9372ae; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -129,7 +129,7 @@
 							data-frames='[{"delay":1300,"speed":1180,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #7e7e7e; letter-spacing: 0.5px;font-family:Work Sans;">
+							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #333333; letter-spacing: 0.5px;font-family:Work Sans;">
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
@@ -163,7 +163,7 @@
 					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
-				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">
+				<div class="col-md-6 mb-30" style="background-color: #9372ae; height: 400px;">
 					<div class="cosmetics-home-intro mt-50">
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -194,7 +194,7 @@
 							data-frames='[{"delay":1300,"speed":1180,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #7e7e7e; letter-spacing: 0.5px;font-family:Work Sans;">
+							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #333333; letter-spacing: 0.5px;font-family:Work Sans;">
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
