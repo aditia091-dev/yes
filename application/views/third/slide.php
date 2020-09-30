@@ -244,7 +244,7 @@
 									data-lazyload="assets/images/revimages/cosmetics/slider-homepage14-img6.png" data-no-retina> </div>
 						</div>
 
-						<!-- LAYER NR. 16 -->
+						<!-- LAYER NR. 16
 						<div class="tp-caption button-under-line rev-btn  tp-resizeme" id="slide-44-layer-20"
 							data-x="['left','center','center','left']" data-hoffset="['1291','222','-2','174']"
 							data-y="['top','top','top','top']" data-voffset="['718','506','353','331']" data-width="none"
@@ -253,7 +253,7 @@
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[3,3,3,3]" data-paddingleft="[0,0,0,0]"
 							style="z-index: 8; white-space: nowrap; letter-spacing: 1px;border-color:rgb(51,51,51);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-							<a class="revslider-button-red" href="shop-left-sidebar.html"> SHOP COLLECTION</a></div>
+							<a class="revslider-button-red" href="shop-left-sidebar.html"> SHOP COLLECTION</a></div>-->
 
 						<!-- LAYER NR. 17 -->
 						<div class="tp-caption   tp-resizeme" id="slide-44-layer-22" data-x="['left','left','center','center']"

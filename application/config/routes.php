@@ -51,5 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'Christian';
 $route['gold-series'] = 'Christian/gold';
+$route['eye-priority'] = 'Christian/eye';
+$route['lips-xl'] = 'Christian/lips';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

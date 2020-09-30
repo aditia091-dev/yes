@@ -14,4 +14,16 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
 		$this->load->view('landing/gold',$data);
 	}
+
+	public function eye()
+	{
+		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$this->load->view('landing/eye',$data);
+	}
+
+	public function lips()
+	{
+		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$this->load->view('landing/lips',$data);
+	}
 }

@@ -10,7 +10,7 @@
 
           
             <div class="col-lg-1"></div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
               <!--=======  single category  =======-->
 
               <div class="single-product">
@@ -49,8 +49,8 @@
 
               <!--=======  End of single category  =======-->
             </div>
-            <div class="col-lg-2"></div>
-             <div class="col-lg-2">
+            <div class="col-lg-1"></div>
+             <div class="col-lg-3">
               <!--=======  single category  =======-->
 
               <div class="single-product">
@@ -89,8 +89,8 @@
 
               <!--=======  End of single category  =======-->
             </div>
-            <div class="col-lg-2"></div>
-             <div class="col-lg-2">
+            <div class="col-lg-1"></div>
+             <div class="col-lg-3">
               <!--=======  single category  =======-->
 
               <div class="single-product">

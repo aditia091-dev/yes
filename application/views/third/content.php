@@ -58,7 +58,7 @@
 					<div class="cosmetics-home-intro text-center">
 						<h3 class="title text-center">EYE PRIORITY</h3>
 						<img src="assets/images/mf/prod/eye priority-10.png" class="img-fluid" alt="">
-						<a href="shop-left-sidebar.html" class="lezada-shop-link text-center">LEARN MORE</a>
+						<a href="<?= base_url('eye-priority');?>" class="lezada-shop-link text-center">LEARN MORE</a>
 
 					</div>
 				</div>
@@ -122,7 +122,7 @@
 					<div class="cosmetics-home-intro text-center">
 						<h3 class="title text-center">LIPS XL</h3>
 						<img src="assets/images/mf/prod/gol series-10.png" class="img-fluid" alt="">
-						<a href="shop-left-sidebar.html" class="lezada-shop-link text-center">LEARN MORE</a>
+						<a href="<?= base_url('lips-xl');?>" class="lezada-shop-link text-center">LEARN MORE</a>
 
 					</div>
 				</div>
