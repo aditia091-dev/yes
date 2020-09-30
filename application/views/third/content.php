@@ -114,7 +114,7 @@
 		</div>
 	</div>
 
-	<div class="cosmetics-home-intro-area mb-70" style="background-color: #eaeaea;">
+	<div class="cosmetics-home-intro-area mb-50" style="background-color: #eaeaea;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 mt-30">
