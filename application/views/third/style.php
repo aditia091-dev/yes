@@ -76,6 +76,25 @@
 			}
 		}
 
+		.ikon {
+			width: 100%;
+			position: absolute;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.ikon1 {
+			margin-top: 20px;
+			margin-left: 20px;
+			float: left;
+		}
+
+		.ikon2 {
+			margin-left: auto;
+			margin-top: 20px;
+			margin-right: 40px;
+			float: right;
+		}
+
 	</style>
 
 </head>
