@@ -131,6 +131,26 @@
 		.ikon2 a:hover span.img4{
 			opacity: 100;
 		}
+		.loader {
+		  border: 16px solid #f3f3f3;
+		  border-radius: 50%;
+		  border-top: 16px solid #3498db;
+		  width: 120px;
+		  height: 120px;
+		  -webkit-animation: spin 2s linear infinite; /* Safari */
+		  animation: spin 2s linear infinite;
+		}
+
+		/* Safari */
+		@-webkit-keyframes spin {
+		  0% { -webkit-transform: rotate(0deg); }
+		  100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+		  0% { transform: rotate(0deg); }
+		  100% { transform: rotate(360deg); }
+		}
 		.overlay1 {
 		  position: absolute;
 		  top: 0;
@@ -143,6 +163,18 @@
 		  transition: .5s ease;
 		  background-color: #008CBA;
 		}
+
+		.overlay_1:hover .overlay1 {
+		  opacity: 1;
+		}
 	</style>
 
 </head>
+<center>
+<div id="loading" style="width: 100%">
+	<img width="25%" src="<?= base_url();?>assets/images/mf/loader.jpeg">
+	<div class="loader"></div>
+</div>
+</center>
+<div id="hide">
+

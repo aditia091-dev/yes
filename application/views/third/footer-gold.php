@@ -623,7 +623,7 @@
 	<!-- scroll to top  -->
 	<a href="#" class="scroll-top"></a>
 	<!-- end of scroll to top -->
-
+	</div>
 	<!-- JS
 	============================================ -->
 	<!-- jQuery JS -->
@@ -654,6 +654,13 @@
 		src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
 	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hide").hide();
+			$("#loading").delay(3000).fadeOut('slow');
+			$("#hide").fadeIn('slow');
+		})
+	</script>
 
 
 </body>

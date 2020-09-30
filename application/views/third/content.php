@@ -29,8 +29,11 @@
 					
 					<!--=======  single image  =======-->
 					<div class="row text-center">
-						<div class="col-md-6 mb-30">					
+						<div class="col-md-6 mb-30 overlay_1">					
 							<img src="<?php base_url();?>assets/images/mf/gold series/gold.png" class="img-fluid" alt="">
+							<div class="overlay1">
+							    <div class="text">Hello World</div>
+							 </div>
 						</div>
 						<div class="col-md-6 mb-30">
 							<img src="<?php base_url();?>assets/images/mf/gold series/caviar.png" class="img-fluid" alt="">
