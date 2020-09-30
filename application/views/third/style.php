@@ -131,25 +131,61 @@
 		.ikon2 a:hover span.img4{
 			opacity: 100;
 		}
-		.loader {
-		  border: 16px solid #f3f3f3;
+		.loader3:before,
+		.loader3:after,
+		.loader3 {
 		  border-radius: 50%;
-		  border-top: 16px solid #3498db;
-		  width: 120px;
-		  height: 120px;
-		  -webkit-animation: spin 2s linear infinite; /* Safari */
-		  animation: spin 2s linear infinite;
+		  width: 2.5em;
+		  height: 2.5em;
+		  -webkit-animation-fill-mode: both;
+		  animation-fill-mode: both;
+		  -webkit-animation: load7 1.8s infinite ease-in-out;
+		  animation: load7 1.8s infinite ease-in-out;
 		}
-
-		/* Safari */
-		@-webkit-keyframes spin {
-		  0% { -webkit-transform: rotate(0deg); }
-		  100% { -webkit-transform: rotate(360deg); }
+		.loader3 {
+		  font-size: 10px;
+		  margin: 80px auto;
+		  position: relative;
+		  text-indent: -9999em;
+		  -webkit-transform: translateZ(0);
+		  -ms-transform: translateZ(0);
+		  transform: translateZ(0);
+		  -webkit-animation-delay: -0.16s;
+		  animation-delay: -0.16s;
 		}
-
-		@keyframes spin {
-		  0% { transform: rotate(0deg); }
-		  100% { transform: rotate(360deg); }
+		.loader3:before {
+		  left: -3.5em;
+		  -webkit-animation-delay: -0.32s;
+		  animation-delay: -0.32s;
+		}
+		.loader3:after {
+		  left: 3.5em;
+		}
+		.loader3:before,
+		.loader3:after {
+		  content: '';
+		  position: absolute;
+		  top: 0;
+		}
+		@-webkit-keyframes load7 {
+		  0%,
+		  80%,
+		  100% {
+		    box-shadow: 0 2.5em 0 -1.3em #ffffff;
+		  }
+		  40% {
+		    box-shadow: 0 2.5em 0 0 #ffffff;
+		  }
+		}
+		@keyframes load7 {
+		  0%,
+		  80%,
+		  100% {
+		    box-shadow: 0 2.5em 0 -1.3em #ffffff;
+		  }
+		  40% {
+		    box-shadow: 0 2.5em 0 0 #ffffff;
+		  }
 		}
 		.overlay1 {
 		  position: absolute;
@@ -167,13 +203,67 @@
 		.overlay_1:hover .overlay1 {
 		  opacity: 1;
 		}
+		.loader3:before,
+		.loader3:after,
+		.loader3 {
+		  border-radius: 50%;
+		  width: 2.5em;
+		  height: 2.5em;
+		  -webkit-animation-fill-mode: both;
+		  animation-fill-mode: both;
+		  -webkit-animation: load7 1.8s infinite ease-in-out;
+		  animation: load7 1.8s infinite ease-in-out;
+		}
+		.loader3 {
+		  font-size: 10px;
+		  text-indent: -9999em;
+		  -webkit-transform: translateZ(0);
+		  -ms-transform: translateZ(0);
+		  transform: translateZ(0);
+		  -webkit-animation-delay: -0.16s;
+		  animation-delay: -0.16s;
+		}
+		.loader3:before {
+		  left: -3.5em;
+		  -webkit-animation-delay: -0.32s;
+		  animation-delay: -0.32s;
+		}
+		.loader3:after {
+		  left: 3.5em;
+		}
+		.loader3:before,
+		.loader3:after {
+		  content: '';
+		}
+		@-webkit-keyframes load7 {
+		  0%,
+		  80%,
+		  100% {
+		    box-shadow: 0 2.5em 0 -1.3em black;
+		  }
+		  40% {
+		    box-shadow: 0 2.5em 0 0 black;
+		  }
+		}
+		@keyframes load7 {
+		  0%,
+		  80%,
+		  100% {
+		    box-shadow: 0 2.5em 0 -1.3em black;
+		  }
+		  40% {
+		    box-shadow: 0 2.5em 0 0 black;
+		  }
+		}
 	</style>
 
 </head>
 <center>
-<div id="loading" style="width: 100%">
+<div id="loading" style="width: 100%; padding-top: 100px;">
 	<img width="25%" src="<?= base_url();?>assets/images/mf/loader.jpeg">
-	<div class="loader"></div>
+	<div class="loader3">
+
+	</div>
 </div>
 </center>
 <div id="hide">
