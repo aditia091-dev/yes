@@ -31,7 +31,7 @@
 
 					<div
 						class="instagram-section-intro pl-50 pl-lg-50 pl-md-0 pl-sm-0 pl-xs-0 pl-xxs-0 mb-0 mb-lg-0 mb-md-50 mb-sm-50 mb-xs-50 mb-xxs-50">
-						<p><a href="#">@lezada_shop</a></p>
+						<p><a href="#">@christianbreton_indonesia</a></p>
 						<h3>Follow us on Instagram</h3>
 					</div>
 
@@ -47,50 +47,26 @@
 	=            footer area         =
 	=============================================-->
 
-	<div class="footer-container footer-one pt-20 pb-20">
+	<div class="footer-container footer-one pt-100 pb-50">
 		<div class="container wide">
 			<div class="row">
-				<div class="col footer-single-widget">
+				<div class="col ">
 					<!--=======  copyright text  =======-->
 					<!--=======  logo  =======-->
 
 					<div class="logo">
-						<img src="assets/images/logo.png" class="img-fluid" alt="">
+						<img src="<?php base_url();?>assets/images/loader.png" class="img-fluid" alt="">
 					</div>
-
-					<!--=======  End of logo  =======-->
-
-					<!--=======  copyright text  =======-->
 
 					<div class="copyright-text">
-						<p> &copy; 2020 lezada. <span>All Rights Reserved</span></p>
+						&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
 					</div>
 
 					<!--=======  End of copyright text  =======-->
 
 					<!--=======  End of copyright text  =======-->
 				</div>
-				<div class="col footer-single-widget">
-					<!--=======  single widget  =======-->
-					<h5 class="widget-title">ABOUT</h5>
-
-					<!--=======  footer navigation container  =======-->
-
-					<div class="footer-nav-container">
-						<nav>
-							<ul>
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Store location</a></li>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Orders tracking</a></li>
-							</ul>
-						</nav>
-					</div>
-
-					<!--=======  End of footer navigation container  =======-->
-
-					<!--=======  single widget  =======-->
-				</div>
+				
 				<div class="col footer-single-widget">
 					<!--=======  single widget  =======-->
 					<h5 class="widget-title">USEFUL LINKS</h5>
@@ -122,7 +98,7 @@
 					<div class="footer-nav-container footer-social-links">
 						<nav>
 							<ul>
-								<li><a href="http://twitter.com/"><i class="fa fa-twitter"></i> Twitter</a></li>
+								
 								<li><a href="http://facebook.com/"> <i class="fa fa-facebook"></i> Facebook</a></li>
 								<li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
 								<li><a href="http://youtube.com/"> <i class="fa fa-youtube"></i> Youtube</a></li>
