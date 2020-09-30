@@ -131,6 +131,18 @@
 		.ikon2 a:hover span.img4{
 			opacity: 100;
 		}
+		.overlay1 {
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  height: 100%;
+		  width: 100%;
+		  opacity: 0;
+		  transition: .5s ease;
+		  background-color: #008CBA;
+		}
 	</style>
 
 </head>

@@ -3,8 +3,21 @@
 	=            cosmetics home intro section         =
 	=============================================-->
 
-	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: #eaeaea;">
+	<div class="cosmetics-home-intro-area mb-70" style="background-color: #eaeaea;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 mt-30">
+					<div style="height: 20px; background-color: #D2B48C;"></div>
+				</div>
+				<div class="col-md-3 mt-20">
+					<h1 class="title text-center">GOLD SERIES</h1>
+				</div>
+				<div class="col-md-7 mt-30">
+					<div style="height: 20px; background-color: #D2B48C;"></div>
+				</div>
+				
+			</div>
+			
 			<div class="konten1" style="">
 				
 			</div>
@@ -27,6 +40,7 @@
 						<div class="single-product__image">
 							<a class="image-wrap center" href="shop-product-basic.html">
 			                    <img src="assets/images/mf/gold series/after.png" class="img-fluid" alt="">
+			                    
 			                    <img src="assets/images/mf/gold series/before.png" class="img-fluid" alt="">
 			                    
 			                 </a>
@@ -37,9 +51,9 @@
 				</div>
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						<h3 class="title text-center">GOLD SERIES</h3>
+						
 						<img src="assets/images/mf/prod/gol series-10.png" class="img-fluid" alt="">
-						<a href="<?= base_url('gold-series');?>" class="lezada-shop-link text-center">LEARN MORE</a>
+						<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">LEARN MORE</a>
 
 					</div>
 				</div>
@@ -47,8 +61,20 @@
 		</div>
 	</div>
 
-	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: #eaeaea;">
+	<div class="cosmetics-home-intro-area mb-70" style="background-color: #eaeaea;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 mt-30">
+					<div style="height: 20px; background-color: #BA55D3;"></div>
+				</div>
+				<div class="col-md-3 mt-20">
+					<h1 class="title text-center">EYE PRIORITY</h1>
+				</div>
+				<div class="col-md-7 mt-30">
+					<div style="height: 20px; background-color: #BA55D3;"></div>
+				</div>
+				
+			</div>
 			<div class="row align-items-center">
 				<div class="konten2" style="">
 				
@@ -56,9 +82,8 @@
 
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						<h3 class="title text-center">EYE PRIORITY</h3>
 						<img src="assets/images/mf/prod/eye priority-10.png" class="img-fluid" alt="">
-						<a href="<?= base_url('eye-priority');?>" class="lezada-shop-link text-center">LEARN MORE</a>
+						<a href="<?= base_url('eye-priority');?>" class="btn btn-dark">LEARN MORE</a>
 
 					</div>
 				</div>
@@ -89,8 +114,20 @@
 		</div>
 	</div>
 
-	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: #eaeaea;">
+	<div class="cosmetics-home-intro-area mb-70" style="background-color: #eaeaea;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 mt-30">
+					<div style="height: 20px; background-color: #FFB6C1;"></div>
+				</div>
+				<div class="col-md-3 mt-20">
+					<h1 class="title text-center">LIPS XL</h1>
+				</div>
+				<div class="col-md-7 mt-30">
+					<div style="height: 20px; background-color: #FFB6C1;"></div>
+				</div>
+				
+			</div>
 			<div class="row align-items-center">
 				<div class="konten3" style="">
 				
@@ -105,7 +142,7 @@
 							<img src="assets/images/mf/lips xl/aset-26.png" class="img-fluid" alt="">
 						</div>
 					</div>
-					<div class="single-product">
+					<div class="single-product mb-30">
 						<div class="single-product__image">
 							<a class="image-wrap center" href="shop-product-basic.html">
 			                    
@@ -120,9 +157,8 @@
 				</div>
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						<h3 class="title text-center">LIPS XL</h3>
 						<img src="assets/images/mf/prod/gol series-10.png" class="img-fluid" alt="">
-						<a href="<?= base_url('lips-xl');?>" class="lezada-shop-link text-center">LEARN MORE</a>
+						<a href="<?= base_url('lips-xl');?>" class="btn btn-dark text-center">LEARN MORE</a>
 
 					</div>
 				</div>
