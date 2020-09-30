@@ -31,13 +31,32 @@
 							<div class="ikon1 float-left">
 								<a href="#" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></a><br/>
 								<a href="#" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></a><br/>
-								<a href="#" class=""><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px"></a>
+								<a href="#" class=""><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
+								</a>
 							</div>
 							<div class="ikon2 float-right">
-								<a href="#" class="mb-5"><img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px"></a><br/>
-								<a href="#" class="mb-5"><img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px"></a><br/>
-								<a href="#" class="mb-5"><img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px"></a><br/>
-								<a href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px"></a>
+								<a href="<?= base_url('eye');?>" class="mb-5">
+									<span class="img1"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
+									<img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px">
+								</a>
+								<br/>
+								<a href="#" class="mb-5">
+									<span class="img2"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
+									<img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px">
+									
+								</a>
+								<br/>
+								<a href="#" class="mb-5">
+									<span class="img3"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
+									<img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px">
+									
+								</a>
+								<br/>
+								<a href="#">
+									<span class="img4"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
+									<img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px">
+									
+								</a>
 							</div>
 						</div>
 

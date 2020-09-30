@@ -93,8 +93,44 @@
 			margin-top: 20px;
 			margin-right: 40px;
 			float: right;
+			position: static;
 		}
 
+		.ikon2 a span.img1{
+			opacity: 0;
+		}
+
+		.ikon2 a span.img2{
+			opacity: 0;
+		}
+
+		.ikon2 a span.img3{
+			opacity: 0;
+		}
+
+		.ikon2 a span.img4{
+			opacity: 0;
+		}
+
+		.ikon2 a:hover img{
+			display: inline-block;
+		}
+
+		.ikon2 a:hover span.img1{
+			opacity: 100;
+		}
+
+		.ikon2 a:hover span.img2{
+			opacity: 100;
+		}
+
+		.ikon2 a:hover span.img3{
+			opacity: 100;
+		}
+
+		.ikon2 a:hover span.img4{
+			opacity: 100;
+		}
 	</style>
 
 </head>

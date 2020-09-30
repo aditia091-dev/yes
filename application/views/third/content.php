@@ -4,7 +4,7 @@
 	=============================================-->
 
 	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: ;">
+		<div class="container" style="background-color: #eaeaea;">
 			<div class="konten1" style="">
 				
 			</div>
@@ -48,7 +48,7 @@
 	</div>
 
 	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: ;">
+		<div class="container" style="background-color: #eaeaea;">
 			<div class="row align-items-center">
 				<div class="konten2" style="">
 				
@@ -90,7 +90,7 @@
 	</div>
 
 	<div class="cosmetics-home-intro-area mb-70">
-		<div class="container" style="background-color: ;">
+		<div class="container" style="background-color: #eaeaea;">
 			<div class="row align-items-center">
 				<div class="konten3" style="">
 				
