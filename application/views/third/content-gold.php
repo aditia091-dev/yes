@@ -79,8 +79,8 @@
 							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
 							data-paddingleft="[35,35,35,35]"
 							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>
+							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
 					</div>
 				</div>
 			</div>
@@ -144,8 +144,8 @@
 							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
 							data-paddingleft="[35,35,35,35]"
 							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>
+							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
 					</div>
 				</div>
 			</div>
@@ -209,8 +209,8 @@
 							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
 							data-paddingleft="[35,35,35,35]"
 							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>
+							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
 					</div>
 				</div>
 			</div>

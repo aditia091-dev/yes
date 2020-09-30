@@ -5,25 +5,25 @@ class Christian extends CI_Controller {
 
 		public function index()
 	{
-		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Welcome');
 		$this->load->view('landing/christianbreton',$data);
 	}
 
 	public function gold()
 	{
-		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Gold Series');
 		$this->load->view('landing/gold',$data);
 	}
 
 	public function eye()
 	{
-		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Eye Series');
 		$this->load->view('landing/eye',$data);
 	}
 
 	public function lips()
 	{
-		$data = array(	'title'		=> 'Garis Studio 44 | Welcome');
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
 		$this->load->view('landing/lips',$data);
 	}
 }
