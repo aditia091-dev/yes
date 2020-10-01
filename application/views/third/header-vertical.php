@@ -8,7 +8,7 @@
 			<!--=======  logo  =======-->
 
 			<div class="vertical-header-logo">
-				<a href="index.html">
+				<a href="#">
 					<img src="assets/images/logo-icon.png" class="img-fluid" alt="">
 				</a>
 			</div>
