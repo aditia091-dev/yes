@@ -12,7 +12,7 @@
 
 					<ul class="breadcrumb-list">
 						<li class="breadcrumb-list__item"><a href="index.html">HOME</a></li>
-						<li class="breadcrumb-list__item breadcrumb-list__item--active">Gold Series</li>
+						<li class="breadcrumb-list__item breadcrumb-list__item--active">Eyes Priority</li>
 					</ul>
 
 					<!--=======  End of breadcrumb list  =======-->
@@ -30,7 +30,7 @@
 				<div class="col-md-6 pl-60 pl-sm-15 pl-xs-15 pl-xxs-15 mb-30 mt-30 text-center" style="background-color: ;">
 					
 					<!--=======  single image  =======-->
-					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
+					<img src="assets/images/mf/prod/eyes.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
 				<div class="col-md-6 mb-30"  style="background-color: #9372ae; height: 400px;">

@@ -43,7 +43,7 @@
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
 							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Work Sans;">
-							FEATURED PRODUCT </div>
+							CHRISTIAN BRETON DE LUXE GOLD SERUM </div>
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-10" data-x="['left','left','left','left']"
 							data-hoffset="['281','91','88','21']" data-y="['top','top','top','top']"
 							data-voffset="['208','116','97','142']" data-fontsize="['48','48','48','40']"
@@ -53,8 +53,7 @@
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
 							style="z-index: 12; white-space: nowrap; font-size: 48px; line-height: 64px; font-weight: 400; color: #333333; letter-spacing: 0px;font-family:Work Sans;">
-							Montana shelf <br>
-							collection </div>
+							 </div>
 
 						<!-- LAYER NR. 9 -->
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-11" data-x="['left','left','left','left']"
@@ -81,7 +80,7 @@
 				<div class="col-md-6 pl-60 pl-sm-15 pl-xs-15 pl-xxs-15 mb-30 mt-30 text-center" style="background-color: ;">
 					
 					<!--=======  single image  =======-->
-					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
+					<img src="assets/images/mf/prod/pd_2_2_.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
 				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">
@@ -132,7 +131,7 @@
 				<div class="col-md-6 pl-60 pl-sm-15 pl-xs-15 pl-xxs-15 mb-30 mt-30 text-center" style="background-color: ;">
 					
 					<!--=======  single image  =======-->
-					<img src="assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
+					<img src="assets/images/mf/prod/aset-32.png" class="img-fluid" alt="">
 					<!--=======  End of single image  =======-->
 				</div>
 				<div class="col-md-6 mb-30" style="background-color: #dccca7; height: 400px;">

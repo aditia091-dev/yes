@@ -18,9 +18,8 @@
 
                 <div class="single-product__image">
                   <a class="image-wrap center" href="shop-product-basic.html">
-                    <img src="<?php base_url();?>assets/images/mf/prod/pd_1.png" class="img-fluid" alt="">
-                    <img src="<?php base_url();?>assets/images/mf/prod/pd_3.png" class="img-fluid" alt="">
-                    
+                    <img src="<?php base_url();?>assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
+                    <img src="<?php base_url();?>assets/images/mf/prod/pd_2_2.png" class="img-fluid" style="" alt="">
                   </a>
                   
                 </div>
@@ -31,7 +30,7 @@
 
                 <div class="single-category__content single-category__content--two mt-25">
                   <div class="title">
-                    <a href="shop-left-sidebar.html">Lips XL</a>
+                    <a href="shop-left-sidebar.html">Gold Series</a>
                   </div>
 
                   <p class="product-count">1</p>
@@ -58,8 +57,9 @@
 
                 <div class="single-product__image">
                   <a class="image-wrap center" href="shop-product-basic.html">
-                    <img src="<?php base_url();?>assets/images/mf/prod/pd_2_.png" class="img-fluid" alt="">
-                    <img src="<?php base_url();?>assets/images/mf/prod/pd_2_2.png" class="img-fluid" style="" alt="">
+                    <img src="<?php base_url();?>assets/images/mf/prod/eyesprod2.png" class="img-fluid" style="" alt="">
+                    <img src="<?php base_url();?>assets/images/mf/prod/eyesprod.png" class="img-fluid" alt="">
+                    
                     
                   </a>
                   
@@ -71,7 +71,7 @@
 
                 <div class="single-category__content single-category__content--two mt-25">
                   <div class="title">
-                    <a href="shop-left-sidebar.html">Gold Series</a>
+                    <a href="shop-left-sidebar.html">Eyes Priority</a>
                   </div>
 
                   <p class="product-count">2</p>
@@ -99,7 +99,7 @@
                 <div class="single-product__image">
                   <a class="image-wrap center" href="shop-product-basic.html">
                     <img src="<?php base_url();?>assets/images/mf/prod/pd_3.png" class="img-fluid" alt="">
-                    <img src="<?php base_url();?>assets/images/mf/prod/pd_1.png" class="img-fluid" alt="">
+                    <!--<img src="<?php base_url();?>assets/images/mf/prod/pd_1.png" class="img-fluid" alt="">-->
                     
                   </a>
                   
@@ -112,7 +112,7 @@
 
                 <div class="single-category__content single-category__content--two mt-25">
                   <div class="title">
-                    <a href="shop-left-sidebar.html">Eyes Series</a>
+                    <a href="shop-left-sidebar.html">Lips XL</a>
                   </div>
 
                   <p class="product-count">3</p>
