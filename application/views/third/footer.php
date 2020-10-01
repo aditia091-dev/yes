@@ -1,48 +1,4 @@
 
-	<!--=============================================
-	=            instagram slider area         =
-	=============================================-->
-
-	<div class="instagram-slider-area mb-30">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-8 order-2 order-lg-1">
-					<!--=============================================
-					=            instagram image slider         =
-					=============================================-->
-
-					<div class="instagram-image-slider-area">
-						<!--=======  instagram image container  =======-->
-
-						<div class="instagram-image-slider-container">
-							<div class="instagram-feed-thumb">
-								<!--<div id="instagramFeedThree" class="instagram-carousel">-->
-
-								</div>
-							</div>
-						</div>
-
-						<!--=======  End of instagram image container  =======-->
-					</div>
-
-					<!--=====  End of instagram image slider  ======-->
-				</div>
-				<div class="col-lg-4 order-1 order-lg-2">
-					<!--=======  instagram intro  =======-->
-<!--
-					<div
-						class="instagram-section-intro pl-50 pl-lg-50 pl-md-0 pl-sm-0 pl-xs-0 pl-xxs-0 mb-0 mb-lg-0 mb-md-50 mb-sm-50 mb-xs-50 mb-xxs-50">
-						<p><a href="#">@christianbreton_indonesia</a></p>
-						<h3>Follow us on Instagram</h3>
-					</div>
-
-					<!--=======  End of instagram intro  =======-->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--=====  End of instagram slider area  ======-->
 
 	<!--=============================================
 	=            footer area         =
@@ -627,3 +583,55 @@
 		</div> <!-- cd-item-info -->
 		<a href="#0" class="cd-close">Close</a>
 	</div>
+
+	<!--=====  End of quick view  ======-->
+
+	<!-- scroll to top  -->
+	<a href="#" class="scroll-top"></a>
+	<!-- end of scroll to top -->
+	</div>
+	<!-- JS
+	============================================ -->
+	<!-- jQuery JS -->
+	<script src="<?php base_url();?>assets/js/vendor/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="<?php base_url();?>assets/js/popper.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="<?php base_url();?>assets/js/bootstrap.min.js"></script>
+
+	<!-- Plugins JS -->
+	<script src="<?php base_url();?>assets/js/plugins.js"></script>
+
+	<!-- Main JS -->
+	<script src="<?php base_url();?>assets/js/main.js"></script>
+
+	<!-- Revolution Slider JS -->
+	<script src="<?php base_url();?>assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="<?php base_url();?>assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="<?php base_url();?>assets/revolution/revolution-active.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript"
+		src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="<?php base_url();?>assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hide").hide();
+			$("#loading").delay(3000).fadeOut('slow');
+			$("#hide").delay(3000).fadeIn('slow');
+		})
+	</script>
+
+<!--chat api wa-->
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
+<!--end api-->
+</body>
+</html>
