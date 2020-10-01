@@ -4,6 +4,21 @@
 
 <!-- Mirrored from live.hasthemes.com/html/3/lezada-preview/lezada/index-cosmetics.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Sep 2020 03:28:17 GMT -->
 <head>
+	<style type="text/css">
+   .normal { font-weight: normal; }
+   .bold { font-weight: bold; }
+   .bolder { font-weight: bolder; }
+   .lighter { font-weight: lighter; }
+   .number100 { font-weight: 100; }
+   .number200 { font-weight: 200; }
+   .number300 { font-weight: 300; }
+   .number400 { font-weight: 400; }
+   .number500 { font-weight: 500; }
+   .number600 { font-weight: 600; }
+   .number700 { font-weight: 700; }
+   .number800 { font-weight: 800; }
+   .number900 { font-weight: 900; }
+</style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $title ?></title>

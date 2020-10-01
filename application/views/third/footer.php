@@ -672,7 +672,11 @@
 		})
 	</script>
 
+<!--chat api wa-->
 
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
+<!--end api-->
 </body>
 
 
