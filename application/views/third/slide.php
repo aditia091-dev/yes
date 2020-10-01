@@ -1,5 +1,14 @@
 
 <body>
+<center>
+<div id="loading" style="width: 100%; padding-top: 100px;">
+	<img width="25%" src="<?= base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png">
+	<div class="loader3">
+
+	</div>
+</div>
+</center>
+<div id="hide">
 
 	<!--=============================================
     =            slider area         =
@@ -97,3 +106,4 @@
 <br>
 		<br>
 		<br>
+		
