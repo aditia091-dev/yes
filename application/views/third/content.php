@@ -55,7 +55,7 @@
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
 						
-						<img src="assets/images/mf/prod/gol series-10.png" class="img-fluid" alt="">
+						<img src="assets/images/mf/prod/gold.png" class="img-fluid" alt="">
 						<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">LEARN MORE</a>
 
 					</div>
@@ -85,7 +85,7 @@
 
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						<img src="assets/images/mf/prod/eye priority-10.png" class="img-fluid" alt="">
+						<img src="assets/images/mf/prod/eye.png" class="img-fluid" alt="">
 						<a href="<?= base_url('eye-priority');?>" class="btn btn-dark">LEARN MORE</a>
 
 					</div>
@@ -149,8 +149,8 @@
 						<div class="single-product__image">
 							<a class="image-wrap center" href="shop-product-basic.html">
 			                    
-			                    <img src="<?php base_url();?>assets/images/mf/lips xl/aset-01.png" class="img-fluid" alt="">
 			                    <img src="<?php base_url();?>assets/images/mf/lips xl/aset-27.png" class="img-fluid" alt="">
+			                    <img src="<?php base_url();?>assets/images/mf/lips xl/aset-01.png" class="img-fluid" alt="">
 			                    
 			                </a>
 							
@@ -160,7 +160,7 @@
 				</div>
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						<img src="assets/images/mf/prod/gol series-10.png" class="img-fluid" alt="">
+						<img src="assets/images/mf/prod/lips.png" class="img-fluid" alt="">
 						<a href="<?= base_url('lips-xl');?>" class="btn btn-dark text-center">LEARN MORE</a>
 
 					</div>

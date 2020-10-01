@@ -22,7 +22,7 @@
 					<!--=======  logo  =======-->
 
 					<div class="logo">
-						<img src="assets/images/logo.png" class="img-fluid" alt="">
+						<img src="<?php base_url();?>assets/images/loader.png" class="img-fluid" alt="">
 					</div>
 
 					<!--=======  End of logo  =======-->

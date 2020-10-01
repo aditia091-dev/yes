@@ -68,20 +68,6 @@
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
-						<!-- LAYER NR. 10 -->
-						<div class="tp-caption Slider-button-alt rev-btn " id="slide-14-layer-12"
-							data-x="['left','left','left','left']" data-hoffset="['282','91','89','29']"
-							data-y="['top','top','top','top']" data-voffset="['478','384','364','349']" data-width="none"
-							data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-							data-responsive="off"
-							data-frames='[{"delay":1580,"speed":1270,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(51,51,51);bg:transparent;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]"
-							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
-							data-paddingleft="[35,35,35,35]"
-							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
-					</div>
 				</div>
 			</div>
 		</div>
@@ -133,20 +119,6 @@
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
-						<!-- LAYER NR. 10 -->
-						<div class="tp-caption Slider-button-alt rev-btn " id="slide-14-layer-12"
-							data-x="['left','left','left','left']" data-hoffset="['282','91','89','29']"
-							data-y="['top','top','top','top']" data-voffset="['478','384','364','349']" data-width="none"
-							data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-							data-responsive="off"
-							data-frames='[{"delay":1580,"speed":1270,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(51,51,51);bg:transparent;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]"
-							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
-							data-paddingleft="[35,35,35,35]"
-							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
-					</div>
 				</div>
 			</div>
 		</div>
@@ -198,20 +170,6 @@
 							Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse<br> suscipit sagittis leo estibulum
 							issim Lorem ipsum dolor sit amet,<br> consectetur cing elit. </div>
 
-						<!-- LAYER NR. 10 -->
-						<div class="tp-caption Slider-button-alt rev-btn " id="slide-14-layer-12"
-							data-x="['left','left','left','left']" data-hoffset="['282','91','89','29']"
-							data-y="['top','top','top','top']" data-voffset="['478','384','364','349']" data-width="none"
-							data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-							data-responsive="off"
-							data-frames='[{"delay":1580,"speed":1270,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(51,51,51);bg:transparent;"}]'
-							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]"
-							data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]"
-							data-paddingleft="[35,35,35,35]"
-							style="z-index: 14; white-space: nowrap; letter-spacing: 1px;border-color:rgba(0,0,0,1);outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; width: 165px;">
-							<!--<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-							<a class="revslider-button" href="shop-left-sidebar.html"> ONLY $39</a> </div>-->
-					</div>
 				</div>
 			</div>
 		</div>
