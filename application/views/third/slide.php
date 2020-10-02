@@ -1,12 +1,8 @@
-
 <body>
-
 <div id="hide">
-
 	<!--=============================================
     =            slider area         =
     =============================================-->
-
 	<div class="slider-area header-bottom-slider-area">
 		<div id="rev_slider_16_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="homepage-14"
 			data-source="gallery"

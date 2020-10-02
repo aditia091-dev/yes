@@ -232,7 +232,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
-	<link rel="icon" href="assets/images/favicon.ico">
+	<link rel="icon" href="<?php base_url();?>assets/images/mf/loader.ico">
 	<!-- CSS
 	============================================ -->
 	<!-- Bootstrap CSS -->
