@@ -74,7 +74,6 @@
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
 							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Work Sans;">
 							Christian Breton De Luxe Gold Mask </div><br><p>digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah <br>dibersihkan.</p></div>
-
 				</div>
 			</div>
 		</div>
