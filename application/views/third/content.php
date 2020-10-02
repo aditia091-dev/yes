@@ -57,7 +57,8 @@
 					<div class="cosmetics-home-intro text-center">
 						
 						<img src="assets/images/mf/prod/gold.png" class="img-fluid" alt="">
-						<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">LEARN MORE</a>
+						<a href="<?= base_url('gold-series');?>" class="lezada-shop-link text-center">
+						<!--<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">-->LEARN MORE</a>
 
 					</div>
 				</div>
@@ -87,7 +88,7 @@
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
 						<img src="assets/images/mf/prod/eye.png" class="img-fluid" alt="">
-						<a href="<?= base_url('eye-priority');?>" class="btn btn-dark">LEARN MORE</a>
+						<a href="<?= base_url('eye-priority');?>" class="lezada-shop-link text-center">LEARN MORE</a>
 
 					</div>
 				</div>
@@ -162,7 +163,7 @@
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
 						<img src="assets/images/mf/prod/lips.png" class="img-fluid" alt="">
-						<a href="<?= base_url('lips-xl');?>" class="btn btn-dark text-center">LEARN MORE</a>
+						<a href="<?= base_url('lips-xl');?>" class="lezada-shop-link text-center">LEARN MORE</a>
 
 					</div>
 				</div>
