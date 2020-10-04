@@ -34,6 +34,6 @@ class Christian extends CI_Controller {
 	public function d_gold()
 	{
 		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
-		$this->load->view('n_detail/nav',$data);
+		$this->load->view('n_detail/gold',$data);
 	}
 }
