@@ -11,7 +11,7 @@
 					<!--=======  breadcrumb list  =======-->
 
 					<ul class="breadcrumb-list">
-						<li class="breadcrumb-list__item"><a href="index.html">HOME</a></li>
+						<li class="breadcrumb-list__item"><a href="<?php echo site_url('Christian/home')?>">HOME</a></li>
 						<li class="breadcrumb-list__item breadcrumb-list__item--active">Gold Series</li>
 					</ul>
 

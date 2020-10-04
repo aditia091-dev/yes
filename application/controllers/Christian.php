@@ -26,4 +26,9 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
 		$this->load->view('landing/lips',$data);
 	}
+	public function home()
+	{
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$this->load->view('landing/home',$data);
+	}
 }
