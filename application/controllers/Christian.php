@@ -6,7 +6,7 @@ class Christian extends CI_Controller {
 		public function index()
 	{
 		$data = array(	'title'		=> 'Chritian Breton Indonesia | Welcome');
-		$this->load->view('landing/christianbreton',$data);
+		$this->load->view('th_p/landing',$data);
 	}
 
 	public function gold()
@@ -30,5 +30,10 @@ class Christian extends CI_Controller {
 	{
 		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
 		$this->load->view('landing/home',$data);
+	}
+	public function d_gold()
+	{
+		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$this->load->view('n_detail/nav',$data);
 	}
 }

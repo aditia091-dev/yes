@@ -1,5 +1,3 @@
-<?php $this->load->view('third/style') ?>
-<?php $this->load->view('third/slide') ?>
 	<!--=============================================
 	=            cosmetics home intro section         =
 	=============================================-->
@@ -56,7 +54,7 @@
 					<div class="cosmetics-home-intro text-center">
 						
 						<img src="assets/images/mf/prod/gold.png" class="img-fluid" alt="">
-						<a href="<?= base_url('gold-series');?>" class="lezada-shop-link text-center">
+						<a href="<?php echo site_url('christian/d_gold')?>" class="lezada-shop-link text-center">
 						<!--<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">-->LEARN MORE</a>
 
 					</div>
@@ -174,4 +172,3 @@
 	<!--=============================================
 	=            cosmetics home category area         =
 	=============================================-->
-<?php $this->load->view('third/footer') ?>
