@@ -1,4 +1,5 @@
 </body>
+
 	<!--=============================================
 	=            footer area         =
 	=============================================-->
@@ -32,10 +33,10 @@
 					<div class="footer-nav-container">
 						<nav>
 							<ul>
-								<li><a href="#">About us</a></li>
+								
 								<li><a href="#">Store location</a></li>
 								<li><a href="#">Contact</a></li>
-								<li><a href="#">Orders tracking</a></li>
+								
 							</ul>
 						</nav>
 					</div>
@@ -75,7 +76,6 @@
 					<div class="footer-nav-container footer-social-links">
 						<nav>
 							<ul>
-								<li><a href="http://twitter.com/"><i class="fa fa-twitter"></i> Twitter</a></li>
 								<li><a href="http://facebook.com/"> <i class="fa fa-facebook"></i> Facebook</a></li>
 								<li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
 								<li><a href="http://youtube.com/"> <i class="fa fa-youtube"></i> Youtube</a></li>
@@ -546,11 +546,7 @@
 			$("#hide").delay(3000).fadeIn('slow');
 		})
 	</script>
-<!--chat api wa-->
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
-<!--end api-->
 <!--chat api wa-->
 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>

@@ -256,7 +256,14 @@
 	<!-- Modernizer JS -->
 	<script src="<?php base_url();?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+<center>
+<div id="loading" style="width: 100%; padding-top: 100px;">
+	<img width="25%" src="<?= base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png">
+	<div class="loader3">
 
+	</div>
+</div>
+</center>
 <body>
 <div id="hide">
 	<!--=============================================
@@ -286,9 +293,9 @@
 							data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 						<div class="ikon">
 							<div class="ikon1 float-left">
-								<a href="#" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></a><br/>
-								<a href="#" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></a><br/>
-								<a href="#" class=""><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
+								<a href="https://www.maztafarma.com/" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></a><br/>
+								<a href="https://www.tokopedia.com/" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></a><br/>
+								<a href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB" class=""><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
 								</a>
 							</div>
 							<div class="ikon2 float-right">

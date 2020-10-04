@@ -197,7 +197,7 @@
 												<td class="quickview-value">
 													<ul class="quickview-social-icons">
 														<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-														<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+														<li><a href="https://www.instagram.com/chbreton_indonesia/"><i class="fa fa-instagram"></i></a></li>
 														<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 														<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 													</ul>

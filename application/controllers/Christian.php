@@ -5,7 +5,7 @@ class Christian extends CI_Controller {
 
 		public function index()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Welcome');
+		$data = array(	'title'		=> 'Welcome | Christian Breton Indonesia');
 		$this->load->view('th_p/landing',$data);
 	}
 
@@ -28,27 +28,27 @@ class Christian extends CI_Controller {
 	}
 	public function home()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$data = array(	'title'		=> 'Christian Breton Indonesia | Lips XL');
 		$this->load->view('landing/home',$data);
 	}
 	public function d_gold()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$data = array(	'title'		=> 'Gold Series | Christian Breton Indonesia ');
 		$this->load->view('n_detail/gold',$data);
 	}
 	public function d_eye()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$data = array(	'title'		=> 'Eye Priority | Christian Breton Indonesia');
 		$this->load->view('n_detail/eye',$data);
 	}
 	public function d_lips()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$data = array(	'title'		=> 'Lips XL | Christian Breton Indonesia');
 		$this->load->view('n_detail/lips',$data);
 	}
 	public function contactus()
 	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
+		$data = array(	'title'		=> 'Contact Us | Christian Breton Indonesia');
 		$this->load->view('n_detail/contactus',$data);
 	}
 }

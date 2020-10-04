@@ -1260,6 +1260,7 @@ nav.site-nav > ul > li.menu-item-has-children > a:before {
   color: #D0D0D0;
 }
 nav.site-nav > ul > li > a {
+  font-family: "Yu Gothic ui light", Yu Gothic ui light;
   color: #7e7e7e;
   font-weight: 500;
 }
@@ -1339,6 +1340,7 @@ nav.site-nav > ul > li ul.single-column-menu.single-column-has-children > li .mu
   margin-bottom: 0;
 }
 nav.site-nav > ul > li ul.single-column-menu li a {
+  font-family: "Yu Gothic ui light", Yu Gothic ui light;
   position: relative;
   margin-bottom: 15px;
   font-size: 15px;
@@ -2812,6 +2814,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
 }
 @media only screen and (max-width: 479px) {
   .breadcrumb-title {
+    font-family: "Yu Gothic ui light", Yu Gothic ui light;
     font-size: 30px;
   }
 }
@@ -9101,6 +9104,7 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   color: #333;
 }
 .shop-product__short-desc {
+  font-family: "Yu Gothic ui light", Yu Gothic ui light;
   font-size: 15px;
   line-height: 24px;
 }
