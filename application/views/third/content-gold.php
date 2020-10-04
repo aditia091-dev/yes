@@ -42,7 +42,7 @@
 							data-frames='[{"delay":660,"speed":1280,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Work Sans;">
+							style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Yu Gothic ui light;">
 							CHRISTIAN BRETON DE LUXE GOLD SERUM </div><br>
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-10" data-x="['left','left','left','left']"
 							data-hoffset="['281','91','88','21']" data-y="['top','top','top','top']"
@@ -63,7 +63,7 @@
 							data-frames='[{"delay":1300,"speed":1180,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #7e7e7e; letter-spacing: 0.5px;font-family:Work Sans;">
+							style="z-index: 13; white-space: nowrap; font-size: 15px; line-height: 26px; font-weight: 400; color: #7e7e7e; letter-spacing: 0.5px;font-family:Yu Gothic ui light;">
 							Christian Breton De Luxe Gold Mask dengan kandungan gold dan caviar <BR>dapat mengencangkan dan menghaluskan kulit serta merangsang <br>regenerasi Sel. Christian Breton De Luxe Gold Mask dapat membuat <br>cerah dan bersih. <br> <br><br>
 							<div class="tp-caption   tp-resizeme" id="slide-14-layer-9" data-x="['left','left','left','left']"
 							data-hoffset="['287','93','89','21']" data-y="['top','top','top','top']"
@@ -99,7 +99,7 @@
 							data-frames='[{"delay":660,"speed":1280,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Work Sans;">
+							style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Yu Gothic ui light;">
 							CHRISTIAN BRETON SERUM ELIXIR </div><br>
 						<div class="tp-caption   tp-resizeme" id="slide-14-layer-10" data-x="['left','left','left','left']"
 							data-hoffset="['281','91','88','21']" data-y="['top','top','top','top']"
@@ -109,7 +109,7 @@
 							data-frames='[{"delay":1050,"speed":1230,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 12; white-space: nowrap; font-size: 48px; line-height: 64px; font-weight: 400; color: #333333; letter-spacing: 0px;font-family:Work Sans;">
+							style="z-index: 12; white-space: nowrap; font-size: 48px; line-height: 64px; font-weight: 400; color: #333333; letter-spacing: 0px;font-family:Yu Gothic ui light;">
 							 </div>
 
 						<!-- LAYER NR. 9 -->
@@ -129,7 +129,7 @@
 							data-frames='[{"delay":660,"speed":1280,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Work Sans;">
+							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 22px; font-weight: 500; color: #333333; letter-spacing: 2px;font-family:Yu Gothic ui light;">
 							Christian Breton Serum Elixir</div><br><p> dioleskan didaerah kulit bagian mata setiap hari. Dapat digunakan <br>sebelum menggunakan sebelum menggunakan rangkaian Gold Series.</p></div>
 
 				</div>
