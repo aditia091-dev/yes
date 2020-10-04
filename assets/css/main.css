@@ -6047,6 +6047,14 @@ nav.site-nav > ul > li ul.mega-menu-column-5 > li .mega-sub-menu li:last-child a
   background-image: url("../images/breadcrumb-bg/background-heading-page.png");
 }
 
+.breadcrumb-bg-eye {
+  background-image: url("../images/breadcrumb-bg/background-heading-page-eye.png");
+}
+
+.breadcrumb-bg-lips {
+  background-image: url("../images/breadcrumb-bg/background-heading-page-lips.png");
+}
+
 /*----------  testimonial backgrounds  ----------*/
 .testimonial-bg-1 {
   background-image: url("../images/backgrounds/bg-testimonials.png");

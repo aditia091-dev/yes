@@ -43,7 +43,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="<?php echo base_url();?>assets/images/prod/gld_ok.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/prod/gold_2.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -159,7 +159,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON DE LUXE GOLD SERUM</h2>
+										<h2>CHRISTIAN BRETON SERUM ELIXIR</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -176,7 +176,7 @@
 									<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										Christian Breton De Luxe Gold Mask dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serta merangsang regenerasi Sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
+										<strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit didaerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit. </p></div>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -187,7 +187,7 @@
 										<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										Christian Breton De Luxe Gold Mask digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah dibersihkan.</p>
+										<strong>Christian Breton Serum Elixir</strong> dioleskan didaerah kulit bagian mata setiap hari. Dapat digunakan    sebelum menggunakan sebelum menggunakan rangkaian Gold Series.</p></div>
 									
 
 									<!--=======  End of shop product buttons  =======-->

@@ -85,7 +85,8 @@
 							<nav class="site-nav center-menu">
 								<ul>
 									<li>
-									</li>
+										<a href="<?php echo site_url('christian')?>">Home</a>
+									</li><!--
 									<li class="menu-item-has-children"><a href="shop-left-sidebar.html">Shop</a>
 										<ul class="sub-menu mega-menu mega-menu-column-4">
 											<li><a href="javascript:void(0)" class="mega-column-title">Shop Pages</a>
@@ -127,108 +128,26 @@
 												</div>
 											</li>
 										</ul>
-									</li>
-									<li class="menu-item-has-children"><a href="javascript:void(0)">Elements</a>
-										<ul class="sub-menu mega-menu mega-menu-column-5">
-											<li><a href="javascript:void(0)" class="mega-column-title">Shop / Products</a>
-												<ul class="mega-sub-menu">
-													<li><a href="element-product-categories.html">Product Categories</a></li>
-													<li><a href="element-product-sliders.html">Product Sliders</a></li>
-													<li><a href="element-product-tabs.html">Product Tabs</a></li>
-													<li><a href="element-product-widget.html">Product Widget</a></li>
-													<li><a href="element-recent-products.html">Recent Products</a></li>
-												</ul>
-											</li>
-											<li><a href="javascript:void(0)" class="mega-column-title">Shop / Products</a>
-												<ul class="mega-sub-menu">
-													<li><a href="element-sale-products.html">Sale Products </a></li>
-													<li><a href="element-featured-products.html">Featured products</a></li>
-													<li><a href="element-top-rated-products.html">Top Rated products</a></li>
-													<li><a href="element-bestselling-products.html">Best Selling products</a></li>
-													<li><a href="element-product-attributes.html">Product Attributes</a></li>
-												</ul>
-											</li>
-											<li><a href="javascript:void(0)" class="mega-column-title">Theming</a>
-												<ul class="mega-sub-menu">
-													<li><a href="element-blog-posts.html">Blog Posts</a></li>
-													<li><a href="element-mailchimp-form.html">Mailchimp Form</a></li>
-													<li><a href="element-icon-box.html">Icon Box</a></li>
-													<li><a href="element-team-member.html">Team Member</a></li>
-													<li><a href="element-instagram.html">Instagram</a></li>
-												</ul>
-											</li>
-											<li><a href="javascript:void(0)" class="mega-column-title">Theming</a>
-												<ul class="mega-sub-menu">
-													<li><a href="element-faq.html">FAQs / Toggles</a></li>
-													<li><a href="element-countdown-timer.html">Countdown Timer</a></li>
-													<li><a href="element-button.html">Buttons</a></li>
-													<li><a href="element-testimonials.html">Testimonials</a></li>
-													<li><a href="element-google-maps.html">Google Maps</a></li>
-												</ul>
-											</li>
-											<li>
-												<div class="menu-image">
-													<img src="assets/images/menu-image/menu-element.png" class="img-fluid" alt="">
-												</div>
-											</li>
-										</ul>
-									</li>
-									<li class="menu-item-has-children"><a href="javascript:void(0)">Pages</a>
+									</li>-->
+									<li class="menu-item-has-children"><a href="javascript:void(0)">Our Product</a>
 										<ul class="sub-menu single-column-menu">
-											<li><a href="about-us.html">About Us</a></li>
-											<li><a href="about-us-2.html">About Us 2</a></li>
-											<li><a href="contact-us.html">Contact Us</a></li>
-											<li><a href="faq.html">F.A.Q</a></li>
-											<li><a href="coming-soon.html">Coming Soon</a></li>
-											<li><a href="404.html">404</a></li>
-											<li><a href="my-account.html">My account</a></li>
-											<li><a href="compare.html">Compare</a></li>
+											<li><a href="<?php echo site_url('christian/d_gold')?>">Gold Series</a></li>
+											<li><a href="<?php echo site_url('christian/d_lips')?>">Eye Priority</a></li>
+											<li><a href="<?php echo site_url('christian/d_lips')?>">Lips XL</a></li>
 										</ul>
 									</li>
-									<li class="menu-item-has-children "><a href="javascript:void(0)">Blog</a>
-										<ul class="sub-menu single-column-menu single-column-has-children">
-											<li><a href="blog-standard-right-sidebar.html">Standard Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-standard-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-standard-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-standard-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
-											<li><a href="blog-grid-right-sidebar.html">Grid Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-grid-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-grid-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-grid-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
-											<li><a href="blog-list-right-sidebar.html">List Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-list-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-list-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
-											<li><a href="blog-masonry-right-sidebar.html">Masonry Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-masonry-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-masonry-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-masonry-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
-											<li><a href="blog-full-then-grid-right-sidebar.html">1st Full Then Grid Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-full-then-grid-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-full-then-grid-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-full-then-grid-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
-											<li><a href="blog-single-post-right-sidebar.html">Single Post Layout</a>
-												<ul class="multilevel-submenu">
-													<li><a href="blog-single-post-right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="blog-single-post-left-sidebar.html">Left Sidebar</a></li>
-													<li><a href="blog-single-post-full-width.html">Full Width</a></li>
-												</ul>
-											</li>
+
+									<li class="menu-item-has-children"><a href="javascript:void(0)">Digital Shop</a>
+										<ul class="sub-menu single-column-menu">
+											<li><a href="about-us.html">Mazta Farma</a></li>
+											<li><a href="about-us-2.html">Tokopedia</a></li>
+											<li><a href="contact-us.html">Shopee</a></li>
+										</ul>
+									</li>
+
+									<li class="menu-item-has-children">
+										<a href="<?php echo site_url('christian/contactus')?>">Contact Us</a>
+									</li>
 										</ul>
 									</li>
 								</ul>

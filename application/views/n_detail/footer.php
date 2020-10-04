@@ -11,21 +11,18 @@
 					<!--=======  logo  =======-->
 
 					<div class="logo">
-						<img src="assets/images/logo.png" class="img-fluid" alt="">
+						<img src="<?php base_url();?>assets/images/mf/loader.png" class="img-fluid" alt="">
 					</div>
 
-					<!--=======  End of logo  =======-->
-
-					<!--=======  copyright text  =======-->
-
 					<div class="copyright-text">
-						<p> &copy; 2020 lezada. <span>All Rights Reserved</span></p>
+						&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
 					</div>
 
 					<!--=======  End of copyright text  =======-->
 
 					<!--=======  End of copyright text  =======-->
 				</div>
+				
 				<div class="col footer-single-widget">
 					<!--=======  single widget  =======-->
 					<h5 class="widget-title">ABOUT</h5>
@@ -542,6 +539,12 @@
 
 	<!-- Main JS -->
 	<script src="<?php echo base_url();?>assets/js/main.js"></script>
+
+<!--chat api wa-->
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
+<!--end api-->
 
 </body>
 

@@ -43,7 +43,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="<?php echo base_url();?>assets/images/prod/gld_ok.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/prod/lips.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -159,7 +159,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON DE LUXE GOLD SERUM</h2>
+										<h2>CHRISTIAN BRETON LIPS XL</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -176,7 +176,7 @@
 									<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serta merangsang regenerasi Sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
+										<strong>Christian Breton Lips XL</strong> dapat menambah volume bibir secara instan dan juga dapat memberi kelembaban pada bibir.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -187,7 +187,7 @@
 										<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah dibersihkan.</p>
+										<strong>Christian Breton Lips XL</strong> dapat diaplikasikan setelah menggunakan Lipstik.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->
@@ -213,4 +213,4 @@
 							</div>
 						</div>
 					</div>
-			</div></div></div></div>
+			</div></div></div></div></div>
