@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="breadcrumb-title">Shop</h1>
+					<h1 class="breadcrumb-title">Eye Priority</h1>
 
 					<!--=======  breadcrumb list  =======-->
 

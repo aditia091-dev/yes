@@ -539,13 +539,23 @@
 
 	<!-- Main JS -->
 	<script src="<?php echo base_url();?>assets/js/main.js"></script>
-
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hide").hide();
+			$("#loading").delay(3000).fadeOut('slow');
+			$("#hide").delay(3000).fadeIn('slow');
+		})
+	</script>
 <!--chat api wa-->
 
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
 <!--end api-->
+<!--chat api wa-->
 
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0210552b-b6a2-4a81-8354-2099c85c28bb"></div>
+<!--end api-->
 </body>
 
 
