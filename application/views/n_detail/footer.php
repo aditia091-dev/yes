@@ -34,8 +34,8 @@
 						<nav>
 							<ul>
 								
-								<li><a href="#">Store location</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="<?php echo site_url('christian/contactus')?>">Store location</a></li>
+								<li><a href="<?php echo site_url('christian/contactus')?>">Contact</a></li>
 								
 							</ul>
 						</nav>
@@ -166,8 +166,8 @@
 				<!--=======  contact widget  =======-->
 
 				<div class="contact-widget">
-					<p class="email"><a href="mailto:contact@lezada.com">contact@lezada.com</a></p>
-					<p class="phone">(+00) 123 567990</p>
+					<p class="email"><a href="mailto:digitalmarketing.mazta@gmail.com">digitalmarketing.mazta@gmail.com</a></p>
+					<p class="phone">Mobile: (+62) – 812 – 8047 - 0862</p>
 
 					<div class="social-icons">
 						<ul>
@@ -177,7 +177,7 @@
 							<li><a href="http://www.facebook.com/" data-tippy="Facebook" data-tippy-inertia="true"
 									data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 									data-tippy-theme="sharpborder" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="http://www.instagram.com/" data-tippy="Instagram" data-tippy-inertia="true"
+							<li><a href="https://www.instagram.com/chbreton_indonesia/" data-tippy="Instagram" data-tippy-inertia="true"
 									data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 									data-tippy-theme="sharpborder" target="_blank"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="http://www.youtube.com/" data-tippy="Youtube" data-tippy-inertia="true"
