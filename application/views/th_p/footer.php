@@ -626,6 +626,28 @@
 			$("#hide").delay(3000).fadeIn('slow');
 		})
 	</script>
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 0) {
+		        $("#dinamic-ikon").addClass("ikon-tetap");
+		    } else {
+		        $("#dinamic-ikon").removeClass("ikon-tetap")    
+		    }
+		});
+		$(window).scroll(function() {    
+
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 500) {
+		        $(".clearHeader").addClass("darkHeader");
+		    } else {
+		        $(".clearHeader").removeClass("darkHeader")    
+		    }
+		});
+	</script>
 
 <!--chat api wa-->
 
