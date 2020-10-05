@@ -18,15 +18,31 @@
 					
 					<!--=======  single image  =======-->
 					<div class="row text-center">
-						<div class="col-md-6 mb-30 overlay_1">					
-							<img src="<?php base_url();?>assets/images/mf/gold series/gold.png" class="img-fluid" alt="">
+						<div class="col-6 mb-30 overlay_1">
+							<div class="ih-item square effect11 top_to_bottom"><a href="#">
+						        <div class="img">
+						        	<img src="<?php base_url();?>assets/images/mf/gold series/gold.png" class="img-fluid desc" alt="img">
+						        </div>
+						        <div class="info text-left" style="background-color: white;">
+						        	<div style="background-color: #D2B48C; padding-left: 5px;"><h2 style="color: white;">GOLD</h2></div>
+						          	<div style="background-color: white; padding: 5px; text-align: justify;"><h5 style="color: black">Kandungan emas dapat memudarkan garis-garis halus dan meremajakan kulit.</h5></div>
+						        </div></a>
+						    </div>					
 							<!--<div class="overlay1">
 							    <div class="text">Kandungan emas dapat memudarkan garis-garis halus dan meremajakan kulit</div>
 							 </div>-->
 						</div>
 
-						<div class="col-md-6 mb-30">
-							<img src="<?php base_url();?>assets/images/mf/gold series/caviar.png" class="img-fluid" alt="">
+						<div class="col-6 mb-30">
+							<div class="ih-item square effect11 top_to_bottom"><a href="#">
+						        <div class="img">
+						        	<img src="<?php base_url();?>assets/images/mf/gold series/caviar.png" class="img-fluid desc" alt="img">
+						        </div>
+						        <div class="info text-left" style="background-color: white;">
+						        	<div style="background-color: black; padding-left: 5px;"><h2 style="color: white;">CAVIAR</h2></div>
+						          	<div style="background-color: white; padding: 5px; text-align: justify;"><h5 style="color: black">Caviar dapat membersihkan dan mencerahkan kulit, tanpa membuat kulit menjadi kering.</h5></div>
+						        </div></a>
+						    </div>		
 						</div>
 					</div>
 					<div class="single-product">
@@ -88,8 +104,18 @@
 						</div>
 					</div>
 					<div class="row text-center">
-						<div class="col-md-6 ml-10 mb-30">					
-							<img src="<?php base_url();?>assets/images/mf/eye priority/cryo.png" class="img-fluid" alt="">
+						<div class="col-6 ml-10 mb-30">
+							<div class="ih-item square-custom effect11 left_to_right" style="width: 495px;">
+								<a href="#" style="width: 495px;">
+							        <div class="img">
+							        	<img src="<?php base_url();?>assets/images/mf/eye priority/cryo.png" class="img-fluid  float-left" alt="img" style="width: 247.5px;">
+							        </div>
+							        <div class="info text-left" style="background-color: transparent; width: 247.5px">
+							        	<div style="background-color: transparent; padding-left: 5px;"><h2 style="color: black;">Cryotheraphy</h2></div>
+							          	<div style="background-color: #BA55D3; padding: 5px; text-align: justify;"><h5 style="color: black">Cryotheraphy adalah teknologi dengan memanfaatkan suhu dingin yang berguna untuk mengecilkan kantung mata dan menghilangkan keriput didaerah sekitar mata.</h5></div>
+						        	</div> 
+							    </a>
+						    </div>						
 						</div>
 					</div>
 					
@@ -116,9 +142,18 @@
 					
 					<!--=======  single image  =======-->
 					<div class="row text-center">
-						<div class="col-md-3 mb-30 text-center"></div>
-						<div class="col-md-6 mb-30 text-center">					
-							<img src="assets/images/mf/lips xl/aset-26.png" class="img-fluid" alt="">
+						<div class="col-6 mb-30 text-center">
+							<div class="ih-item square-custom effect11 left_to_right" style="width: 495px;">
+								<a href="#" style="width: 495px;">
+							        <div class="img">
+							        	<img src="<?php base_url();?>assets/images/mf/lips xl/aset-26.png" class="img-fluid  float-left" alt="img" style="width: 247.5px;">
+							        </div>
+							        <div class="info text-left" style="background-color: transparent; width: 247.5px">
+							        	<div style="background-color: transparent; padding-left: 5px;"><h2 style="color: black;">Bibir Lembab</h2></div>
+							          	<div style="background-color: #FFB6C1; padding: 5px; text-align: justify;"><h5 style="color: black">Bibir tidak memiliki kelenjar keringat sehingga bibir adalah bagian yang membutuhkan pelembab.</h5></div>
+						        	</div> 
+							    </a>
+						    </div>							
 						</div>
 					</div>
 					<div class="single-product mb-30">
@@ -154,3 +189,9 @@
 	<!--=============================================
 	=            cosmetics home category area         =
 	=============================================-->
+<div class="ih-item square effect11 top_to_bottom"><a href="#">
+        <div class="img"><img src="assets/images/mf/prod/lips.png" alt="img"></div>
+        <div class="info">
+          <h3>Heading here</h3>
+          <p>Description goes here</p>
+        </div></a></div>

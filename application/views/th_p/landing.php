@@ -14,24 +14,27 @@
 		}
 		@media only screen and (min-width: 350px) and (max-width: 767px) {
 		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;margin-left: -25px;
 			}
 			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 50px; margin-bottom: 50px; margin-top: 50px;
+				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 750px;
 			}
 			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 400px; margin-left: -15px; margin-bottom: 50px; margin-top: -720px;
+			}
+			.desc {
+				width: 200px;
 			}
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1023px) {
 		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
 			}
 			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 300px; height: 250px; margin-left: 400px; margin-bottom: 50px; margin-top: 50px;
+				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
 			}
 			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
 			}
 		}
 		.ikon {
@@ -217,49 +220,6 @@
 		  }
 		}
 
-		#scroll-button a {
-		}
-		#scroll-button a span {
-		  position: absolute;
-		  top: 0;
-		  left: 50%;
-		  width: 24px;
-		  height: 24px;
-		  margin-left: -12px;
-		  border-left: 1px solid #fff;
-		  border-bottom: 1px solid #fff;
-		  -webkit-transform: rotate(-45deg);
-		  transform: rotate(-45deg);
-		  -webkit-animation: sdb05 1.5s infinite;
-		  animation: sdb05 1.5s infinite;
-		  box-sizing: border-box;
-		}
-		@-webkit-keyframes sdb05 {
-		  0% {
-		    -webkit-transform: rotate(-45deg) translate(0, 0);
-		    opacity: 0;
-		  }
-		  50% {
-		    opacity: 1;
-		  }
-		  100% {
-		    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-		    opacity: 0;
-		  }
-		}
-		@keyframes sdb05 {
-		  0% {
-		    transform: rotate(-45deg) translate(0, 0);
-		    opacity: 0;
-		  }
-		  50% {
-		    opacity: 1;
-		  }
-		  100% {
-		    transform: rotate(-45deg) translate(-20px, 20px);
-		    opacity: 0;
-		  }
-		}
 
 	</style>
 	<style type="text/css">
@@ -288,6 +248,7 @@
 	============================================ -->
 	<!-- Bootstrap CSS -->
 	<link href="<?php base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php base_url();?>assets/css/ihover.css" rel="stylesheet">
 	<!-- FontAwesome CSS -->
 	<link href="<?php base_url();?>assets/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Ionicons CSS -->
@@ -371,7 +332,7 @@
 						data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
 						data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgcolor='#f8f8f8' style='background:#f8f8f8; position: relative;' alt=""
+						<img src="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgcolor='#f8f8f8' style='background:#f8f8f8; position: relative;max-width: 200px;' alt=""
 							data-lazyload="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgposition="center center" data-bgfit="cover"
 							data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 						
