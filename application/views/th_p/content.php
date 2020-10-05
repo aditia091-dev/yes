@@ -6,18 +6,6 @@
 <section id="s2">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-7 mt-30">
-
-				</div>
-				<div class="col-md-3 mt-20 ml-60">
-					<h1 class="title text-center">GOLD SERIES</h1>
-				</div>
-				<div class="col-md-2 mt-30">
-
-				</div>
-				
-			</div>
 			
 			<div class="konten1" style="">
 				
@@ -54,7 +42,7 @@
 				</div>
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
-						
+						<h1 class="title text-center">GOLD SERIES</h1>
 						<img src="assets/images/mf/prod/gold.png" class="img-fluid" alt="">
 						<a href="<?php echo site_url('christian/d_gold')?>" class="lezada-shop-link text-center">
 						<!--<a href="<?= base_url('gold-series');?>" class="btn btn-dark text-center">-->LEARN MORE</a>
@@ -72,18 +60,6 @@
 <section id="s3">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-1 mt-30">
-
-				</div>
-				<div class="col-md-3 mt-20 ml-60">
-					<h1 class="title text-center">EYE PRIORITY</h1>
-				</div>
-				<div class="col-md-7 mt-30">
-
-				</div>
-				
-			</div>
 			<div class="row align-items-center">
 				<div class="konten2" style="">
 				
@@ -91,6 +67,7 @@
 
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
+						<h1 class="title text-center">EYE PRIORITY</h1>
 						<img src="assets/images/mf/prod/eye.png" class="img-fluid" alt="">
 						<a href="<?php echo site_url('christian/d_eye')?>" class="lezada-shop-link text-center">LEARN MORE</a>
 
@@ -130,18 +107,6 @@
 <section id="s4">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-7 mt-30">
-
-				</div>
-				<div class="col-md-3 mt-20 ml-40">
-					<h1 class="title text-center">LIPS XL</h1>
-				</div>
-				<div class="col-md-2 mt-30">
-
-				</div>
-				
-			</div>
 			<div class="row align-items-center">
 				<div class="konten3" style="">
 				
@@ -157,6 +122,7 @@
 						</div>
 					</div>
 					<div class="single-product mb-30">
+						
 						<div class="single-product__image">
 							<a class="image-wrap center" href="shop-product-basic.html">
 			                    
@@ -171,6 +137,7 @@
 				</div>
 				<div class="col-md-6 mb-30">
 					<div class="cosmetics-home-intro text-center">
+						<h1 class="title text-center">LIPS XL</h1>
 						<img src="assets/images/mf/prod/lips.png" class="img-fluid" alt="">
 						<a href="<?php echo site_url('christian/d_lips')?>" class="lezada-shop-link text-center">LEARN MORE</a>
 

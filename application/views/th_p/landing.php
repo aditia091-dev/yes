@@ -419,8 +419,5 @@
 
 	<!--=====  End of slider area  ======-->
 
-<br>
-		<br>
-		<br>
 <?php $this->load->view('th_p/content') ?>
 <?php $this->load->view('th_p/footer') ?>
