@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
 <head>
 	<style type="text/css">
+		html {scroll-behavior:smooth;}
 		.konten1 {
 			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
 		}
@@ -37,7 +38,6 @@
 			width: 100%;
 			position: fixed;
 			margin-top: 20px;
-			margin-left: 20px;
 			z-index: 1;
 		}
 		.ikon-tetap {
@@ -45,7 +45,6 @@
 			position: fixed;
 			top: 1;
 			margin-top: 20px;
-			margin-left: 20px;
 		}
 		.ikon1 {
 			margin-top: 20px;
@@ -55,7 +54,7 @@
 		.ikon2 {
 			margin-left: auto;
 			margin-top: 20px;
-			margin-right: 40px;
+			margin-right: 20px;
 			float: right;
 		}
 
@@ -217,26 +216,51 @@
 		    box-shadow: 0 2.5em 0 0 black;
 		  }
 		}
-		.clearHeader{
-			height: 200px; 
-			background-color: rgba(107,107,107,0.66);
-			position: fixed;
-			top:200;
-			width: 100%;
-			transition:ease all 1s;
-			-webkit-transition:ease all 1s;
-			-moz-transition:ease all 1s;
-			-o-transition:ease all 1s;
-			}
 
-			.darkHeader {
-			  background-color:#333;
-			  height: 100px;
-			}
+		#scroll-button a {
+		}
+		#scroll-button a span {
+		  position: absolute;
+		  top: 0;
+		  left: 50%;
+		  width: 24px;
+		  height: 24px;
+		  margin-left: -12px;
+		  border-left: 1px solid #fff;
+		  border-bottom: 1px solid #fff;
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
+		  -webkit-animation: sdb05 1.5s infinite;
+		  animation: sdb05 1.5s infinite;
+		  box-sizing: border-box;
+		}
+		@-webkit-keyframes sdb05 {
+		  0% {
+		    -webkit-transform: rotate(-45deg) translate(0, 0);
+		    opacity: 0;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  100% {
+		    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		    opacity: 0;
+		  }
+		}
+		@keyframes sdb05 {
+		  0% {
+		    transform: rotate(-45deg) translate(0, 0);
+		    opacity: 0;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  100% {
+		    transform: rotate(-45deg) translate(-20px, 20px);
+		    opacity: 0;
+		  }
+		}
 
-			.wrapper {
-			height:2000px;
-			}
 	</style>
 	<style type="text/css">
    .normal { font-weight: normal; }
@@ -352,6 +376,7 @@
 							data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 						
 						
+						
 
 
 						<!-- LAYERS -->
@@ -381,10 +406,16 @@
 								data-lazyload="assets/images/revimages/cosmetics/slider-homepage14-img8.png" data-no-retina> </div>
 					</li>
 				</ul>
-				<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+
 			</div>
+
 		</div><!-- END REVOLUTION SLIDER -->
+		<div class="text-center mt-0">
+			<a href="#s2" style="transition: opacity .3s;scroll-behavior: smooth;"><img src="https://cdn.iconscout.com/icon/free/png-256/down-chevron-458459.png" width="50px"></a>
+		</div>
 	</div>
+	
+	
 
 	<!--=====  End of slider area  ======-->
 

@@ -3,16 +3,17 @@
 	=============================================-->
 
 <div class="mt-0" style="background: linear-gradient(to top, #eaeaea 98%, white);padding-top: 30px;">
+<section id="s2">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 mt-30">
+				<div class="col-md-7 mt-30">
 
 				</div>
-				<div class="col-md-3 mt-20">
+				<div class="col-md-3 mt-20 ml-60">
 					<h1 class="title text-center">GOLD SERIES</h1>
 				</div>
-				<div class="col-md-7 mt-30">
+				<div class="col-md-2 mt-30">
 
 				</div>
 				
@@ -62,15 +63,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="text-center mt-0">
+			<a href="#s3"><img src="https://cdn.iconscout.com/icon/free/png-256/down-chevron-458459.png" width="50px"></a>
+		</div>
 	</div>
+</section>
 
+<section id="s3">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 mt-30">
+				<div class="col-md-1 mt-30">
 
 				</div>
-				<div class="col-md-3 mt-20">
+				<div class="col-md-3 mt-20 ml-60">
 					<h1 class="title text-center">EYE PRIORITY</h1>
 				</div>
 				<div class="col-md-7 mt-30">
@@ -115,18 +121,23 @@
 				
 			</div>
 		</div>
+		<div class="text-center mt-0">
+			<a href="#s4"><img src="https://cdn.iconscout.com/icon/free/png-256/down-chevron-458459.png" width="50px"></a>
+		</div>
 	</div>
+</section>
 
+<section id="s4">
 	<div class="cosmetics-home-intro-area mb-70" style="background-color: ;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2 mt-30">
+				<div class="col-md-7 mt-30">
 
 				</div>
-				<div class="col-md-3 mt-20">
+				<div class="col-md-3 mt-20 ml-40">
 					<h1 class="title text-center">LIPS XL</h1>
 				</div>
-				<div class="col-md-7 mt-30">
+				<div class="col-md-2 mt-30">
 
 				</div>
 				
@@ -168,7 +179,9 @@
 			</div>
 		</div>
 	</div>
+</section>
 </div>
+
 	<!--=====  End of cosmetics home intro section  ======-->
 
 	<!--=============================================
