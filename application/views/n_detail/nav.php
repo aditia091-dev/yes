@@ -186,52 +186,17 @@
 		    color: #3d4f0c;
 		    z-index: 999;
 		}
-		html {scroll-behavior:smooth;}
-		.konten1 {
-			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
-		}
-		.konten2 {
-			background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 770px; margin-bottom: 50px; margin-top: 50px;
-		}
-		.konten3 {
-			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
-		}
-		@media only screen and (min-width: 350px) and (max-width: 767px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;margin-left: -25px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 750px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 400px; margin-left: -15px; margin-bottom: 50px; margin-top: -720px;
-			}
-			.desc {
-				width: 200px;
-			}
-		}
-		@media only screen and (min-width: 768px) and (max-width: 1023px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
-			}
-		}
 		.ikon {
 			width: 100%;
 			position: fixed;
-			margin-top: 50px;
+			margin-top: 10%;
 			z-index: 1;
 		}
 		.ikon-tetap {
 			width: 100%;
 			position: fixed;
 			top: 1;
-			margin-top: 20px;
+			margin-top: 10%;
 		}
 		.ikon1 {
 			margin-top: 20px;
@@ -280,6 +245,67 @@
 		.ikon2 a:hover span.img4{
 			opacity: 100;
 		}
+		html {scroll-behavior:smooth;}
+		.konten1 {
+			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+		}
+		.konten2 {
+			background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 770px; margin-bottom: 50px; margin-top: 50px;
+		}
+		.konten3 {
+			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+		}
+		@media only screen and (min-width: 350px) and (max-width: 767px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;margin-left: -25px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 750px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 400px; margin-left: -15px; margin-bottom: 50px; margin-top: -720px;
+			}
+			.desc {
+				width: 200px;
+			}
+			.ikon {
+			  	left: 0px;
+			  	bottom: 20px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon-tetap {
+			  	left: 0px;
+			  	bottom: 20px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon1 {
+				margin-top: auto;
+				margin-bottom: 10px: 
+				margin-left: 20px;
+				float: left;
+			}
+			.navtext{
+				margin-right: 20px;
+			}
+		}
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
+			}
+		}
+		
 		.loader3:before,
 		.loader3:after,
 		.loader3 {
@@ -454,79 +480,34 @@
 
 	<!-- Modernizer JS -->
 	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="<?php base_url();?>assets/js/vendor/jquery.min.js"></script>
 </head>
 <body>
 	
-<!--
-	<center>
-<div id="loading" style="width: 100%; padding-top: 100px;">
-	<img width="25%" src="<?= base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png">
-	<div class="loader3">
-
-	</div>
-</div>
-</center>--><!--
-<br>
-	<div id="hide">
-	<!--=============================================
-    =            slider area         =
-    =============================================--
-	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
-		<div class="ikon1 float-left">
-			<ul id="MiniLeftNav">
-                        <li>
-                            <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"></i><span>Home</span></a>
-                        </li>
-                        <li>
-                            <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></i> 
-                                <span>Mazta Farma</span>
-                            </a>
-                        </li>
-                        <li>
-                             <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></i> 
-                                <span>Tokpedia</span>
-                             </a>
-                        </li>
-                         <li>
-                             <a class="navtext" href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px"></i> 
-                                <span>Shopee</span>
-                             </a>
-                        </li>
-                    </ul>
-		</div></div>-->
 	<!--=============================================
 	=            Header offcanvas about         =
 	=============================================-->
+	<?php
+	$ikon_mobile = '<a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"></a><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"></a><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"></a><a class="navtext" href="#"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"></a>';
+
+	$ikon_mobile1= '<ul id="MiniLeftNav"><li><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span></a></li><ul id="MiniLeftNav1"><li><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"><span>Mazta Farma</span></a></li></ul><ul id="MiniLeftNav2"><li><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"><span>Tokopedia</span></a></li></ul><ul id="MiniLeftNav3"><li><a class="navtext" href="#"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"><span>Shopee</span></a></li></ul></ul>';
+
+	?>
 	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
-		<div class="ikon1 float-left">
-			<ul id="MiniLeftNav">
-                <li>
-                    <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"></i><span>Home</span></a>
-                </li>
-                <ul id="MiniLeftNav1">
-	                <li>
-	                    <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></i> 
-	                        <span>Mazta Farma</span>
-	                    </a>
-	                </li>
-	            </ul>
-                <ul id="MiniLeftNav2">
-	                <li>
-	                     <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></i> 
-	                        <span>Tokopedia</span>
-	                     </a>
-	                </li>
-	            </ul>
-                <ul id="MiniLeftNav3">
-	                <li>
-	                     <a class="navtext" href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px"></i> 
-	                        <span>Shopee</span>
-	                     </a>
-	                </li>
-	            </ul>
-            </ul>
+		<div class="ikon1 float-left" id="ikon-mobile">
+			
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		   	if (screen.width>=350 && screen.width<=767) {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile;?>';
+		   	} else {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile1;?>';
+		   	}
+		});	
+	</script>
 	<header class="header header-offcanvas-about header-sticky">
 
 		<!--=======  header bottom  =======-->

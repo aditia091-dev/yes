@@ -292,6 +292,9 @@
 				margin-bottom: 10px: 
 				margin-left: 20px;
 				float: left;
+			}
+			.navtext{
+				margin-right: 20px;
 			}*/
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1023px) {
