@@ -1,4 +1,4 @@
-</body>
+
 	<!--=============================================
 	=            footer area         =
 	=============================================-->
@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="copyright-text">
-						&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
+						<p>&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
 					</div>
 
 					<!--=======  End of copyright text  =======-->
@@ -584,11 +584,11 @@
 	</div>
 
 	<!--=====  End of quick view  ======-->
-
-	<!-- scroll to top  -->
 	<a href="#" class="scroll-top"></a>
+	<!-- scroll to top  -->
 	<!-- end of scroll to top -->
 	</div>
+
 	<!-- JS
 	============================================ -->
 	<!-- jQuery JS -->
@@ -645,6 +645,7 @@
 		  });
 		});
 	</script>
+
 
 <!--chat api wa-->
 
