@@ -25,7 +25,7 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: "yugothib", yugothib;
 	margin:0;
 	padding:0;
 }
@@ -51,7 +51,7 @@ body {
     position: relative;
 }
 #MiniLeftNav span {
-	font-family: 'Raleway', sans-serif;
+	font-family: "yugothib", yugothib;
 	font-size:14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -686,19 +686,19 @@ body {
 						</button>
 						<!--Site Mobile Menu Toggle End-->
 						<ul class="dl-menu dl-menu-toggle">
-							<li><a href="#">Home</a>
+							<li><a href="<?php echo site_url('christian')?>">Home</a>
 							</li>
 
 							<li><a href="#">Our Product</a>
 								<ul class="dl-submenu">
-									<li class=""> <a href="#">Gold Series</a>
+									<li class=""> <a href="<?php echo site_url('gold-series')?>">Gold Series</a>
 									</li>
-									<li><a href="shop-fullwidth-no-sidebar.html">Eyes Priority</a></li>
+									<li><a href="<?php echo site_url('eye-priority')?>">Eyes Priority</a></li>
 										<ul class="dl-submenu">
 										</ul>
 										<li>
 											<li>
-												<a href="shop-fullwidth-left-sidebar.html">Lips XL</a>
+												<a href="<?php echo site_url('lips-xl')?>">Lips XL</a>
 											</li></li></li>
 									</li>
 
@@ -707,14 +707,14 @@ body {
 							</li>
 							<li><a href="#">Digital shop</a>
 								<ul class="dl-submenu">
-									<li><a href="#">Mazta Farma</a></li>
-									<li> <a href="#">Tokopedia</a>
-									<li> <a href="#">Shopee</a></li>
+									<li><a href="https://www.maztafarma.com/">Mazta Farma</a></li>
+									<li> <a href="https://www.tokopedia.com/">Tokopedia</a>
+									<li> <a href="https://www.shopee.com/">Shopee</a></li>
 
 
 								</ul>
 							</li>
-							<li><a href="#">Contact Us</a>
+							<li><a href="<?php echo site_url('contactus')?>">Contact Us</a>
 							</li>
 							
 						</ul>
