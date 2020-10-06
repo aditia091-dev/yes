@@ -56,7 +56,8 @@
 			text-transform: uppercase;
 			
 		    bottom: 5px;
-		    left: 47px;
+		    border-radius: 10px;
+		    left: 60px;
 		    line-height: 38px;
 		    overflow: hidden;
 		    padding: 0;
@@ -117,7 +118,8 @@
 			text-transform: uppercase;
 			
 		    bottom: 5px;
-		    right: 47px;
+		    border-radius: 10px;
+		    right: 60px;
 		    line-height: 38px;
 		    overflow: hidden;
 		    padding: 0;
@@ -194,31 +196,6 @@
 		.konten3 {
 			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
 		}
-		@media only screen and (min-width: 350px) and (max-width: 767px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 470px; margin-bottom: 50px; margin-top: 500px;margin-left: -25px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 400px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 270px; margin-left: -15px; margin-bottom: 50px; margin-top: 580px;
-			}
-			.desc {
-				width: 200px;
-			}
-		}
-		@media only screen and (min-width: 768px) and (max-width: 1023px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
-			}
-		}
 		.ikon {
 			width: 100%;
 			position: fixed;
@@ -276,6 +253,61 @@
 
 		.ikon2 a:hover span.img4{
 			opacity: 100;
+		}
+		@media only screen and (min-width: 350px) and (max-width: 767px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 180px; margin-bottom: 50px; margin-top: 500px;margin-left: -25px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 400px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 270px; margin-left: -15px; margin-bottom: 50px; margin-top: 580px;
+			}
+			.desc {
+				width: 200px;
+			}
+			.ikon {
+			  	left: 0px;
+			  	bottom: 20px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon-tetap {
+			  	left: 0px;
+			  	bottom: 20px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon1 {
+				margin-top: auto;
+				margin-bottom: 10px: 
+				margin-left: 20px;
+				float: left;
+			}
+			.ikon2 {
+				margin-left: auto;
+				margin-top: auto;
+				margin-bottom: 20px: 
+				margin-right: 20px;
+				float: right;
+				display: none;
+			}
+		}
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
+			}
 		}
 		.loader3:before,
 		.loader3:after,
@@ -464,34 +496,11 @@
 	<!--=============================================
     =            slider area         =
     =============================================-->
+    <?php $ikon_mobile = '<div style="width: 100%;"><a class="navtext" href="'.base_url().'"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"></a><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"></a><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"></a><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"></a></div><a href="#" class="scroll-top"></a>'; ?>
+    <?php $ikon_mobile1 = '<ul id="MiniLeftNav"><li><a class="navtext" href="'.base_url().'"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span></a></li><ul id="MiniLeftNav1"><li><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"><span>Mazta Farma</span></a></li></ul><ul id="MiniLeftNav2"><li><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"><span>Tokopedia</span></a></li></ul><ul id="MiniLeftNav3"><li><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"><span>Shopee</span></a></li></ul></ul><a href="#" class="scroll-top"></a>'; ?>
 	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
-		<div class="ikon1 float-left">
-			<ul id="MiniLeftNav">
-                <li>
-                    <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span></a>
-                </li>
-                <ul id="MiniLeftNav1">
-	                <li>
-	                    <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"> 
-	                        <span>Mazta Farma</span>
-	                    </a>
-	                </li>
-	            </ul>
-                <ul id="MiniLeftNav2">
-	                <li>
-	                     <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px">
-	                        <span>Tokopedia</span>
-	                     </a>
-	                </li>
-	            </ul>
-                <ul id="MiniLeftNav3">
-	                <li>
-	                     <a class="navtext" href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
-	                        <span>Shopee</span>
-	                     </a>
-	                </li>
-	            </ul>
-            </ul>
+		<div class="ikon1 float-left" id="ikon-mobile">
+			
 		</div>
 		<div class="ikon2 float-right">
 			<ul id="MiniRightNav">
@@ -516,6 +525,15 @@
 	        </ul>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		   	if (screen.width>=350 && screen.width<=767) {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile;?>';
+		   	} else {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile1;?>';
+		   	}
+		});	
+	</script>
 	<div class="slider-area header-bottom-slider-area">
 		<div id="rev_slider_16_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="homepage-14"
 			data-source="gallery"
