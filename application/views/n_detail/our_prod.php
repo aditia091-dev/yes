@@ -205,7 +205,8 @@
 											</tr>
 										</table>
 									</div>
-
+								<a href="<?php echo site_url('christian/d_gold')?>" class="lezada-button lezada-button--medium lezada-button--icon--left"> 
+									<i class="icon-left ion-plus"></i> Learn More</a>
 									<!--=======  End of other info table  =======-->
 								</div>
 
@@ -426,9 +427,12 @@
 
 									<!--=======  End of other info table  =======-->
 								</div>
-
+								<a href="<?php echo site_url('christian/d_eye')?>" class="lezada-button lezada-button--medium lezada-button--icon--left">
+									<i class="icon-left ion-plus"></i> Learn More</a>
+									<!--=======  End of other info table  =======-->
 								<!--=======  End of shop product description  =======-->
 							</div>
+
 						</div>
 					</div>
 			</div></div></div></div></div>
@@ -640,7 +644,9 @@
 											</tr>
 										</table>
 									</div>
-
+								<a href="<?php echo site_url('christian/d_lips')?>" class="lezada-button lezada-button--medium lezada-button--icon--left">
+									<i class="icon-left ion-plus"></i> Learn More</a>
+									<!--=======  End of other info table  =======-->
 									<!--=======  End of other info table  =======-->
 								</div>
 
