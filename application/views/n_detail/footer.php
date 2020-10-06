@@ -11,7 +11,7 @@
 					<!--=======  logo  =======-->
 
 					<div class="logo">
-						<img src="<?php base_url();?>assets/images/mf/loader.png" class="img-fluid" alt="">
+						<img src="<?php base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png" class="img-fluid" alt="">
 					</div>
 
 					<div class="copyright-text">
@@ -512,6 +512,7 @@
 		</div>
 
 		<!--=======  End of search overlay content  =======-->
+		
 	</div>
 
 	<!--=======  End of search overlay  =======-->
@@ -519,6 +520,7 @@
 	<!--=====  End of overlay items  ======-->
 
 	<!-- scroll to top  -->
+
 	<a href="#" class="scroll-top"></a>
 	<!-- end of scroll to top -->
 
