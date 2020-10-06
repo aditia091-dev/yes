@@ -51,7 +51,7 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Contact Us | Christian Breton Indonesia');
 		$this->load->view('n_detail/contactus',$data);
 	}
-	public function our_p()
+	public function christian_breton_product()
 	{
 		$data = array(	'title'		=> 'Our Product | Christian Breton Indonesia');
 		$this->load->view('n_detail/v_our_prod',$data);

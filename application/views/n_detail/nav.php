@@ -354,7 +354,7 @@
 											</li>
 										</ul>
 									</li>-->
-									<li class="menu-item-has-children"><a href="<?php echo site_url('christian/our_p')?>">Our Product</a>
+									<li class="menu-item-has-children"><a href="<?php echo site_url('christian/christian_breton_product')?>">Our Product</a>
 										<ul class="sub-menu single-column-menu">
 											<li><a href="<?php echo site_url('christian/d_gold')?>">Gold Series</a></li>
 											<li><a href="<?php echo site_url('christian/d_eye')?>">Eye Priority</a></li>

@@ -62,10 +62,12 @@
 
 									<div class="shop-product__small-image-gallery-slider">
 
+										
+
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/minislideour/gold_2_200x100.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -73,7 +75,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/minislideour/gold_1_200x100.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -81,7 +83,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/minislideour/gold_3_200x100.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -89,7 +91,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/minislideour/gold_2_200x100.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -97,26 +99,9 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/minislideour/gold_1_200x100.png" class="img-fluid" alt="">
 										</div>
 
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
 									</div>
 
 								</div>
@@ -501,58 +486,58 @@
 
 									<div class="shop-product__small-image-gallery-slider">
 
-										<!--=======  single image  =======-->
+										<!--=======  single image  =======->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
+										</div>
+
+										<!--=======  End of single image  =======->
+
+										<!--=======  single image  =======--
+
+										<div class="single-image">
+											<img src="<?php echo base_url();?>assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
+										</div>
+
+										<!--=======  End of single image  =======->
+
+										<!--=======  single image  =======->
+
+										<div class="single-image">
+											<img src="<?php echo base_url();?>assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
+										</div>
+
+										<!--=======  End of single image  =======->
+
+										<!--=======  single image  =======->
+
+										<div class="single-image">
+											<img src="<?php echo base_url();?>assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
 
-										<!--=======  single image  =======-->
+										<!--=======  single image  =======--
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
 
-										<!--=======  single image  =======-->
+										<!--=======  single image  =======->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
 
-										<!--=======  single image  =======-->
+										<!--=======  single image  =======->
 
 										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
