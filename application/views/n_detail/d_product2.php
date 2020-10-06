@@ -108,8 +108,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Cream</strong> dengan kandungan gold dan caviar dapat menghaluskan dan mencerahan kulit dan dapat merangsang regenerasi sel serta dapat mengurangi bintik-bintik coklat dikulit serta juga dapat mencegah penuaan dini. Christian Breton De Luxe Gold Cream dapat membuat kulitmu selalu berkilau dan cerah </p></div>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Cream</strong> dengan kandungan gold dan caviar dapat menghaluskan dan mencerahan kulit dan dapat merangsang regenerasi sel serta dapat mengurangi bintik-bintik coklat dikulit serta juga dapat mencegah penuaan dini. Christian Breton De Luxe Gold Cream dapat membuat kulitmu selalu berkilau dan cerah </p></div>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -119,8 +119,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Cream</strong> digunakan pagi dan malam hari setalah menggunakan Christian Bretin De Luxe Gold Serum.</p></div>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Cream</strong> digunakan pagi dan malam hari setalah menggunakan Christian Bretin De Luxe Gold Serum.</p></div>
 									
 
 									<!--=======  End of shop product buttons  =======-->

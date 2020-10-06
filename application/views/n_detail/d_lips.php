@@ -98,8 +98,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Lips XL</strong> dapat menambah volume bibir secara instan dan juga dapat memberi kelembaban pada bibir.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Lips XL</strong> dapat menambah volume bibir secara instan dan juga dapat memberi kelembaban pada bibir.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -109,8 +109,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Lips XL</strong> dapat diaplikasikan setelah menggunakan Lipstik.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Lips XL</strong> dapat diaplikasikan setelah menggunakan Lipstik.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->

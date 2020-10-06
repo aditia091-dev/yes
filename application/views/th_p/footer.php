@@ -584,19 +584,10 @@
 	</div>
 
 	<!--=====  End of quick view  ======-->
-	
+	<a href="#" class="scroll-top"></a>
 	<!-- scroll to top  -->
 	<!-- end of scroll to top -->
 	</div>
-	<script type="text/javascript">
-		$(document).ready(function() {
-		   	if (screen.width>=350 && screen.width<=767) {
-		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile;?>';
-		   	} else {
-		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile1;?>';
-		   	}
-		});	
-	</script>
 
 	<!-- JS
 	============================================ -->

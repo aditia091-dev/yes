@@ -201,6 +201,7 @@
 			position: fixed;
 			margin-top: 20px;
 			z-index: 1;
+			display: inline-block;
 		}
 		.ikon-tetap {
 			width: 100%;
@@ -268,6 +269,9 @@
 				width: 200px;
 			}
 			.ikon {
+				display: none;
+			}
+			/*.ikon {
 			  	left: 0px;
 			  	bottom: 20px;
 			  	z-index: 999;
@@ -288,15 +292,7 @@
 				margin-bottom: 10px: 
 				margin-left: 20px;
 				float: left;
-			}
-			.ikon2 {
-				margin-left: auto;
-				margin-top: auto;
-				margin-bottom: 20px: 
-				margin-right: 20px;
-				float: right;
-				display: none;
-			}
+			}*/
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1023px) {
 		  	.konten1 {
@@ -496,11 +492,35 @@
 	<!--=============================================
     =            slider area         =
     =============================================-->
-    <?php $ikon_mobile = '<div style="width: 100%;"><a class="navtext" href="'.base_url().'"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"></a><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"></a><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"></a><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"></a></div><a href="#" class="scroll-top"></a>'; ?>
-    <?php $ikon_mobile1 = '<ul id="MiniLeftNav"><li><a class="navtext" href="'.base_url().'"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span></a></li><ul id="MiniLeftNav1"><li><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"><span>Mazta Farma</span></a></li></ul><ul id="MiniLeftNav2"><li><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"><span>Tokopedia</span></a></li></ul><ul id="MiniLeftNav3"><li><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"><span>Shopee</span></a></li></ul></ul><a href="#" class="scroll-top"></a>'; ?>
-	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
+	<div class="ikon sticky" id="dinamic-ikon" style="">
 		<div class="ikon1 float-left" id="ikon-mobile">
-			
+			<ul id="MiniLeftNav">
+                <li>
+                    <a class="navtext" href="<?php echo base_url();?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span>
+                    </a>
+                </li>
+                <ul id="MiniLeftNav1">
+	                <li>
+	                    <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"> 
+	                        <span>Mazta Farma</span>
+	                    </a>
+	                </li>
+	            </ul>
+                <ul id="MiniLeftNav2">
+	                <li>
+	                     <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px">
+	                        <span>Tokopedia</span>
+	                     </a>
+	                </li>
+	            </ul>
+                <ul id="MiniLeftNav3">
+	                <li>
+	                     <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
+	                        <span>Shopee</span>
+	                     </a>
+	                </li>
+	            </ul>
+            </ul>
 		</div>
 		<div class="ikon2 float-right">
 			<ul id="MiniRightNav">

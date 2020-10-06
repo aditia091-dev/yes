@@ -102,8 +102,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit daerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit daerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -113,8 +113,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> di oleskan didaerah kulit bagian mata setiap hari. Dapat digunakan sebelum menggunakan rangkain Gold Series.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Serum Elixir</strong> di oleskan didaerah kulit bagian mata setiap hari. Dapat digunakan sebelum menggunakan rangkain Gold Series.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->

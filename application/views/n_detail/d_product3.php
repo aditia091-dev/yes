@@ -99,8 +99,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> Dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serat merangsang regenrasi sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Mask</strong> Dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serat merangsang regenrasi sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -110,8 +110,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah dibersihkan.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Mask</strong> digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah dibersihkan.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->
