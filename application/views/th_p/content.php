@@ -185,13 +185,3 @@
 </div>
 
 	<!--=====  End of cosmetics home intro section  ======-->
-
-	<!--=============================================
-	=            cosmetics home category area         =
-	=============================================-->
-<div class="ih-item square effect11 top_to_bottom"><a href="#">
-        <div class="img"><img src="assets/images/mf/prod/lips.png" alt="img"></div>
-        <div class="info">
-          <h3>Heading here</h3>
-          <p>Description goes here</p>
-        </div></a></div>
