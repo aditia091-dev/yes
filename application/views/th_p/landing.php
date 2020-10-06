@@ -23,7 +23,7 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Yu Gothic ui light", Yu Gothic ui light;
 	margin:0;
 	padding:0;
 }
@@ -45,11 +45,11 @@ body {
 }
 #MiniLeftNav li a{
 	display: block;
-    padding: 7px;
+    padding: 0px;
     position: relative;
 }
 #MiniLeftNav span {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Yu Gothic ui light", Yu Gothic ui light;
 	font-size:14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -74,7 +74,19 @@ body {
 #MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
 #MiniLeftNav a:hover{text-decoration:none;}
 #MiniLeftNav a span{
-	background-color:#fff;
+	background-color:#e9e6eb;
+	color:#3d4f0c;
+}
+#MiniLeftNav1 a span{
+	background-color:#fff1dd;
+	color:#3d4f0c;
+}
+#MiniLeftNav2 a span{
+	background-color:#fff1dd;
+	color:#3d4f0c;
+}
+#MiniLeftNav3 a span{
+	background-color:#fff1dd;
 	color:#3d4f0c;
 }
 
@@ -82,7 +94,7 @@ body {
 #MiniRightNav {
     float: right;
     margin: 0;
-        margin-top: 0px;
+    margin-top: 0px;
     padding: 0;
     margin-top: 12px;
 }
@@ -94,14 +106,14 @@ body {
 }
 #MiniRightNav li a{
 	display: block;
-    padding: 7px;
+    padding: 0px;
     position: relative;
 }
 #MiniRightNav span {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Yu Gothic ui light", Yu Gothic ui light;
 	font-size:14px;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 	text-transform: uppercase;
 	
     bottom: 0;
@@ -149,7 +161,7 @@ body {
     position: relative;
 }
 #MiniHorzNav span {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Yu Gothic ui light", Yu Gothic ui light;
 	font-size:14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -174,8 +186,6 @@ body {
 }
 </style>
 
-
-</head>
 	<style type="text/css">
 		html {scroll-behavior:smooth;}
 		.konten1 {
@@ -452,6 +462,7 @@ body {
 </div>
 </center>
 <body>
+	<audio src="<?php echo base_url();?>assets/images/Jason Mraz - I'm Yours (Live in London).mp3" autoplay="autoplay" hidden="hidden"></audio>
 <div id="hide">
 	<!--=============================================
     =            slider area         =
@@ -462,16 +473,19 @@ body {
                         <li>
                             <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"></i><span>Home</span></a>
                         </li>
+                        <ul id="MiniLeftNav1">
                         <li>
                             <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></i> 
                                 <span>Mazta Farma</span>
                             </a>
                         </li>
+                        <ul id="MiniLeftNav2">
                         <li>
                              <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></i> 
                                 <span>Tokpedia</span>
                              </a>
                         </li>
+                        <ul id="MiniLeftNav3">
                          <li>
                              <a class="navtext" href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px"></i> 
                                 <span>Shopee</span>

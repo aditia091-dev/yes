@@ -4,6 +4,7 @@
 </head>
 
 <style>
+
 /* ----------------------------------------------------
 	FONTS AWESOME
 -------------------------------------------------------*/
@@ -445,11 +446,22 @@ body {
 	<!-- Modernizer JS -->
 	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+<body>
+	
+<!--
+	<center>
+<div id="loading" style="width: 100%; padding-top: 100px;">
+	<img width="25%" src="<?= base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png">
+	<div class="loader3">
+
+	</div>
+</div>
+</center>--><!--
 <br>
 	<div id="hide">
 	<!--=============================================
     =            slider area         =
-    =============================================-->
+    =============================================--
 	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
 		<div class="ikon1 float-left">
 			<ul id="MiniLeftNav">
@@ -472,29 +484,7 @@ body {
                              </a>
                         </li>
                     </ul>
-		</div>
-		<!--
-		<div class="ikon2 float-right">
-			<ul id="MiniRightNav">
-			<li>
-                            <a class="navtext" href="<?php echo site_url('gold-series')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px"></i> <span>Gold Series</span></a>
-                        </li>
-                        <ul id="MiniRightNav1">
-            <li>
-                            <a class="navtext" href="<?php echo site_url('eye-priority')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px"></i> <span>Eye Priority</span></a>
-                        </li>
-                        <ul id="MiniRightNav2">
-                        <li>
-                            <a class="navtext" href="<?php echo site_url('lips-xl')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px"> <span>Lips XL</span></a>
-                        </li>
-
-                        <ul id="MiniRightNav3">
-                        <li>
-                            <a class="navtext" href="<?php echo site_url('contactus')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px"></i> <span>Contact Us</span></a>
-                        </li>
-                    </ul>
-		</div>-->
-	</div></div>
+		</div></div>-->
 	<!--=============================================
 	=            Header offcanvas about         =
 	=============================================-->
