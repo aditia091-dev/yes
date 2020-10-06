@@ -159,7 +159,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON EYE FOCUS ACTIVE CREAM</h2>
+										<h2>CHRISTIAN BRETON DE LUXE GOLD MASK</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -176,7 +176,7 @@
 									<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Eye Focus Active Cream</strong> dengan Teknologi Cryotherapy dan kandungan vitamin E dapat membantu mengencangkan dan mencerahkan kulit serta menghilangkan kantung mata.</p>
+										<strong>Christian Breton De Luxe Gold Mask</strong> Dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serat merangsang regenrasi sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->

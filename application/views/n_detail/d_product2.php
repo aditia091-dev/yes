@@ -159,7 +159,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON SERUM ELIXIR</h2>
+										<h2>CHRISTIAN BRETON DE LUXE GOLD CREAM</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -176,7 +176,7 @@
 									<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit didaerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit. </p></div>
+										<strong>Christian Breton De Luxe Gold Cream</strong> dengan kandungan gold dan caviar dapat menghaluskan dan mencerahan kulit dan dapat merangsang regenerasi sel serta dapat mengurangi bintik-bintik coklat dikulit serta juga dapat mencegah penuaan dini. Christian Breton De Luxe Gold Cream dapat membuat kulitmu selalu berkilau dan cerah </p></div>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -187,7 +187,7 @@
 										<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dioleskan didaerah kulit bagian mata setiap hari. Dapat digunakan    sebelum menggunakan sebelum menggunakan rangkaian Gold Series.</p></div>
+										<strong>Christian Breton De Luxe Gold Cream</strong> digunakan pagi dan malam hari setalah menggunakan Christian Bretin De Luxe Gold Serum.</p></div>
 									
 
 									<!--=======  End of shop product buttons  =======-->

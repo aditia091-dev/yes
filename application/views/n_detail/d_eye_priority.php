@@ -43,7 +43,7 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="<?php echo base_url();?>assets/images/prod/eye_2.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/prod/eye.png" class="img-fluid" alt="">
 										</div>
 
 										<!--=======  End of single image  =======-->
@@ -159,7 +159,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON SERUM ELIXIR</h2>
+										<h2>CHRISTIAN BRETON EYE FOCUS ACTIVE CREAM</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -176,7 +176,7 @@
 									<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit daerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit.</p>
+										<strong>Christian Breton Eye Focus Active Cream</strong> dengan Teknologi Cryotherapy dan kandungan vitamin E dapat membantu mengencangkan dan mencerahkan kulit serta menghilangkan kantung mata.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -187,7 +187,7 @@
 										<!--=======  shop product short description  =======-->
 
 									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> di oleskan didaerah kulit bagian mata setiap hari. Dapat digunakan sebelum menggunakan rangkain Gold Series.</p>
+										<strong>Christian Eye focus Active Cream</strong> digunakan setiap hari sesudah menggunakan Christian Breton Serum Elixir</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->
