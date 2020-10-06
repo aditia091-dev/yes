@@ -1,6 +1,181 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
+<style>
+/* ----------------------------------------------------
+	FONTS AWESOME
+-------------------------------------------------------*/
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+/* icons style */
+#MiniLeftNav .fa, #MiniRightNav .fa, #MiniHorzNav .fa{
+	color:#fff;	
+}
+#MiniLeftNav .fa-2x, #MiniRightNav .fa-2x, #MiniHorzNav .fa-2x {
+    font-size: 1.5em;
+}
+
+/* Minimal Vertical Left Navigation */
+#MiniLeftNav li{
+	list-style: outside none none;
+    margin: 20px 0;
+    padding: 0;
+    width: 48px;
+}
+#MiniLeftNav li a{
+	display: block;
+    padding: 7px;
+    position: relative;
+}
+#MiniLeftNav span {
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+	
+    bottom: 0;
+    left: 47px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 0;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.50s;
+
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.50s;
+	transition: 0.50s;
+}
+#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniLeftNav a:hover{text-decoration:none;}
+#MiniLeftNav a span{
+	background-color:#fff;
+	color:#3d4f0c;
+}
+
+/* Minimal Vertical Right Navigation */
+#MiniRightNav {
+    float: right;
+    margin: 0;
+        margin-top: 0px;
+    padding: 0;
+    margin-top: 12px;
+}
+#MiniRightNav li{
+	list-style: outside none none;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 48px;
+}
+#MiniRightNav li a{
+	display: block;
+    padding: 7px;
+    position: relative;
+}
+#MiniRightNav span {
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+	
+    bottom: 0;
+    right: 47px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    transition: all 0.50s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+#MiniRightNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniRightNav a:hover{text-decoration:none;}
+
+#MiniRightNav3 a span{
+	background-color:#fcf7f7;
+	color:#3d4f0c;
+}
+#MiniRightNav a span{
+	background-color:#dccca7;
+	color:#3d4f0c;
+}
+#MiniRightNav1 a span{
+	background-color:#9372ae;
+	color:#3d4f0c;
+}
+#MiniRightNav2 a span{
+	background-color:#f3b8b7;
+	color:#3d4f0c;
+}
+
+/* Minimal Horizontal  Navigation */
+#MiniHorzNav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 20px 0;
+    padding: 0;
+    width: 48px;
+}
+#MiniHorzNav li a{
+    border:solid 1px #fff;
+	display: block;
+    padding: 7px;
+    position: relative;
+}
+#MiniHorzNav span {
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+	
+    bottom: 0;
+    left: 47px;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    transition: all 0.50s ease 0s;
+    white-space: nowrap;
+    width: 0;
+}
+#MiniHorzNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+#MiniHorzNav a:hover{text-decoration:none;}
+#MiniHorzNav a span {
+    background-color: #fff;
+    color: #3d4f0c;
+    z-index: 999;
+}
+</style>
+
+
+</head>
 	<style type="text/css">
 		html {scroll-behavior:smooth;}
 		.konten1 {
@@ -283,34 +458,46 @@
     =============================================-->
 	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
 		<div class="ikon1 float-left">
-			<a href="https://www.maztafarma.com/" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></a><br/>
-			<a href="https://www.tokopedia.com/" class="mb-30"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></a><br/>
-			<a href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB" class=""><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
-			</a>
+			<ul id="MiniLeftNav">
+                        <li>
+                            <a class="navtext" href="https://www.maztafarma.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"></i><span>Home</span></a>
+                        </li>
+                        <li>
+                            <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></i> 
+                                <span>Mazta Farma</span>
+                            </a>
+                        </li>
+                        <li>
+                             <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px"></i> 
+                                <span>Tokpedia</span>
+                             </a>
+                        </li>
+                         <li>
+                             <a class="navtext" href="#"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px"></i> 
+                                <span>Shopee</span>
+                             </a>
+                        </li>
+                    </ul>
 		</div>
 		<div class="ikon2 float-right">
-			<a href="<?= base_url('eye');?>" class="mb-5">
-				<span class="img1"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
-				<img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px">
-			</a>
-			<br/>
-			<a href="#" class="mb-5">
-				<span class="img2"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
-				<img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px">
-				
-			</a>
-			<br/>
-			<a href="#" class="mb-5">
-				<span class="img3"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
-				<img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px">
-				
-			</a>
-			<br/>
-			<a href="#">
-				<span class="img4"><img src="<?= base_url();?>assets/images/mf/icon/aset-15.png" width="50px"></span>
-				<img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px">
-				
-			</a>
+			<ul id="MiniRightNav">
+			<li>
+                            <a class="navtext" href="<?php echo site_url('gold-series')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px"></i> <span>Gold Series</span></a>
+                        </li>
+                        <ul id="MiniRightNav1">
+            <li>
+                            <a class="navtext" href="<?php echo site_url('eye-priority')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px"></i> <span>Eye Priority</span></a>
+                        </li>
+                        <ul id="MiniRightNav2">
+                        <li>
+                            <a class="navtext" href="<?php echo site_url('lips-xl')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px"> <span>Lips XL</span></a>
+                        </li>
+
+                        <ul id="MiniRightNav3">
+                        <li>
+                            <a class="navtext" href="<?php echo site_url('contactus')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px"></i> <span>Contact Us</span></a>
+                        </li>
+                    </ul>
 		</div>
 	</div>
 	<div class="slider-area header-bottom-slider-area">
