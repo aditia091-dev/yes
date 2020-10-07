@@ -1,5 +1,4 @@
-</body>
-
+<?php $this->load->view('th_p/instagram_int') ?>
 	<!--=============================================
 	=            footer area         =
 	=============================================-->
@@ -12,7 +11,7 @@
 					<!--=======  logo  =======-->
 
 					<div class="logo">
-						<img src="<?php base_url();?>assets/images/mf/loader.png" class="img-fluid" alt="">
+						<img src="<?php base_url();?>assets/images/mf/LOGO CHRISTIAN BRETON PARIS.png" class="img-fluid" alt="">
 					</div>
 
 					<div class="copyright-text">
@@ -77,7 +76,7 @@
 						<nav>
 							<ul>
 								<li><a href="http://facebook.com/"> <i class="fa fa-facebook"></i> Facebook</a></li>
-								<li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
+								<li><a href="https://instagram.com/stories/chbreton_indonesia/2414348618691304154?igshid=6f3gt40znju7"><i class="fa fa-instagram"></i> Instagram</a></li>
 								<li><a href="http://youtube.com/"> <i class="fa fa-youtube"></i> Youtube</a></li>
 							</ul>
 						</nav>
@@ -513,6 +512,7 @@
 		</div>
 
 		<!--=======  End of search overlay content  =======-->
+		
 	</div>
 
 	<!--=======  End of search overlay  =======-->
@@ -520,6 +520,7 @@
 	<!--=====  End of overlay items  ======-->
 
 	<!-- scroll to top  -->
+
 	<a href="#" class="scroll-top"></a>
 	<!-- end of scroll to top -->
 

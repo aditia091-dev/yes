@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="copyright-text">
-						&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
+						<p>&copy; 2020 Christian Breton Indonesia </p><!--<span>All Rights Reserved</span></p>-->
 					</div>
 
 					<!--=======  End of copyright text  =======-->
@@ -56,7 +56,7 @@
 							<ul>
 								
 								<li><a href="http://facebook.com/"> <i class="fa fa-facebook"></i> Facebook</a></li>
-								<li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
+								<li><a href="https://instagram.com/stories/chbreton_indonesia/2414348618691304154?igshid=6f3gt40znju7"><i class="fa fa-instagram"></i> Instagram</a></li>
 								<li><a href="http://youtube.com/"> <i class="fa fa-youtube"></i> Youtube</a></li>
 							</ul>
 						</nav>
@@ -584,11 +584,11 @@
 	</div>
 
 	<!--=====  End of quick view  ======-->
-
-	<!-- scroll to top  -->
 	<a href="#" class="scroll-top"></a>
+	<!-- scroll to top  -->
 	<!-- end of scroll to top -->
 	</div>
+
 	<!-- JS
 	============================================ -->
 	<!-- jQuery JS -->
@@ -626,6 +626,26 @@
 			$("#hide").delay(3000).fadeIn('slow');
 		})
 	</script>
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 0) {
+		        $("#dinamic-ikon").addClass("ikon-tetap");
+		    } else {
+		        $("#dinamic-ikon").removeClass("ikon-tetap")    
+		    }
+		});
+
+		$(function() {
+		  $('a[href*=#]').on('click', function(e) {
+		    e.preventDefault();
+		    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+		  });
+		});
+	</script>
+
 
 <!--chat api wa-->
 

@@ -25,7 +25,7 @@
 
 									<div class="shop-product-rightside-icons">
 										<span class="wishlist-icon">
-											<a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+											<a href="https://www.tokopedia.com/christianbretoni/christian-breton-paris-serum-elixir-botol-15-ml" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
 												data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 												data-tippy-theme="sharpborder"><i class="ion-android-favorite-outline"></i></a>
 										</span>
@@ -43,86 +43,13 @@
 										<!--=======  single image  =======-->
 
 										<div class="single-image">
-											<img src="<?php echo base_url();?>assets/images/prod/eye.png" class="img-fluid" alt="">
+											<img src="<?php echo base_url();?>assets/images/prod/eye_2.png" class="img-fluid" alt="">
 										</div>
-
-										<!--=======  End of single image  =======-->
-
-
-										<!--=======  End of single image  =======-->
 									</div>
-
+								</div>
 								</div>
 
 								<!--=======  End of shop product big image gallery  =======-->
-
-								<!--=======  shop product small image gallery  =======-->
-
-								<div class="shop-product__small-image-gallery-wrapper">
-
-									<div class="shop-product__small-image-gallery-slider">
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-									</div>
-
-								</div>
-
-								<!--=======  End of shop product small image gallery  =======-->
-							</div>
 
 							<div class="col-lg-6">
 								<!--=======  shop product description  =======-->
@@ -159,7 +86,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON EYE FOCUS ACTIVE CREAM</h2>
+										<h2>CHRISTIAN BRETON SERUM ELIXIR</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -175,8 +102,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Eye Focus Active Cream</strong> dengan Teknologi Cryotherapy dan kandungan vitamin E dapat membantu mengencangkan dan mencerahkan kulit serta menghilangkan kantung mata.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit daerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -186,8 +113,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Eye focus Active Cream</strong> digunakan setiap hari sesudah menggunakan Christian Breton Serum Elixir</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Serum Elixir</strong> di oleskan didaerah kulit bagian mata setiap hari. Dapat digunakan sebelum menggunakan rangkain Gold Series.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->

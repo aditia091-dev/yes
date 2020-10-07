@@ -20,12 +20,6 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Chritian Breton Indonesia | Eye Series');
 		$this->load->view('landing/eye',$data);
 	}
-
-	public function lips()
-	{
-		$data = array(	'title'		=> 'Chritian Breton Indonesia | Lips XL');
-		$this->load->view('landing/lips',$data);
-	}
 	public function home()
 	{
 		$data = array(	'title'		=> 'Christian Breton Indonesia | Lips XL');
@@ -51,9 +45,9 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Contact Us | Christian Breton Indonesia');
 		$this->load->view('n_detail/contactus',$data);
 	}
-	public function our_p()
+	public function christian_breton_product()
 	{
-		$data = array(	'title'		=> 'Contact Us | Christian Breton Indonesia');
-		$this->load->view('n_detail/d_our',$data);
+		$data = array(	'title'		=> 'Our Product | Christian Breton Indonesia');
+		$this->load->view('n_detail/v_our_prod',$data);
 	}
 }

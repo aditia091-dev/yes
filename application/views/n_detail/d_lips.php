@@ -25,7 +25,7 @@
 
 									<div class="shop-product-rightside-icons">
 										<span class="wishlist-icon">
-											<a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+											<a href="https://www.tokopedia.com/christianbretoni/christian-breton-paris-lip-xl-tube-15-ml" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
 												data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 												data-tippy-theme="sharpborder"><i class="ion-android-favorite-outline"></i></a>
 										</span>
@@ -45,85 +45,8 @@
 										<div class="single-image">
 											<img src="<?php echo base_url();?>assets/images/prod/lips.png" class="img-fluid" alt="">
 										</div>
-
 										<!--=======  End of single image  =======-->
-
-
-										<!--=======  End of single image  =======-->
-									</div>
-
-								</div>
-
-								<!--=======  End of shop product big image gallery  =======-->
-
-								<!--=======  shop product small image gallery  =======-->
-
-								<div class="shop-product__small-image-gallery-wrapper">
-
-									<div class="shop-product__small-image-gallery-slider">
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-									</div>
-
-								</div>
-
-								<!--=======  End of shop product small image gallery  =======-->
-							</div>
-
+</div></div></div>
 							<div class="col-lg-6">
 								<!--=======  shop product description  =======-->
 
@@ -175,8 +98,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Lips XL</strong> dapat menambah volume bibir secara instan dan juga dapat memberi kelembaban pada bibir.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Lips XL</strong> dapat menambah volume bibir secara instan dan juga dapat memberi kelembaban pada bibir.</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -186,8 +109,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Lips XL</strong> dapat diaplikasikan setelah menggunakan Lipstik.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton Lips XL</strong> dapat diaplikasikan setelah menggunakan Lipstik.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->

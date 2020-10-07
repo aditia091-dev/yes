@@ -25,7 +25,7 @@
 
 									<div class="shop-product-rightside-icons">
 										<span class="wishlist-icon">
-											<a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+											<a href="https://www.tokopedia.com/christianbretoni/christian-breton-paris-de-luxe-gold-serum-botol-30-ml" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
 												data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 												data-tippy-theme="sharpborder"><i class="ion-android-favorite-outline"></i></a>
 										</span>
@@ -55,74 +55,7 @@
 								</div>
 
 								<!--=======  End of shop product big image gallery  =======-->
-
-								<!--=======  shop product small image gallery  =======-->
-
-								<div class="shop-product__small-image-gallery-wrapper">
-
-									<div class="shop-product__small-image-gallery-slider">
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-									</div>
-
-								</div>
-
-								<!--=======  End of shop product small image gallery  =======-->
-							</div>
+</div>
 
 							<div class="col-lg-6">
 								<!--=======  shop product description  =======-->
@@ -175,8 +108,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> dengan kandungan gold dan caviar dapat mengencangkan dan menghaluskan kulit serta merangsang regenerasi Sel. Christian Breton De Luxe Gold Mask dapat membuat cerah dan bersih.</p>
+									<div class="shop-product__short-desc mb-50" class="text-justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Serum</strong> dengan kandungan gold dan caviar dapat menghilangkan garis-garis halus pada kulit, mencerahkan kulit serta melembabkan, mengencangkan kulit, dan dapat mencegah penuaan dini. Sehingga Christian Breton De Luxe Gold Serum dapat mselalu meremajakan kulitmu</p>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -186,8 +119,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton De Luxe Gold Mask</strong> digunakan 2 kali seminggu. dan diplikasikan pada wajah yang sudah dibersihkan.</p>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Serum</strong> Digunakann pagi dan malam hari. Pastikan menggunakan Christin Breton De Luxe Gold Serum sebelum menggunakan Christian Breton De Luxe Gold Cream.</p>
 									
 
 									<!--=======  End of shop product buttons  =======-->

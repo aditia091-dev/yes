@@ -25,7 +25,7 @@
 
 									<div class="shop-product-rightside-icons">
 										<span class="wishlist-icon">
-											<a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+											<a href="https://www.tokopedia.com/christianbretoni/christian-breton-paris-de-luxe-gold-cream-pot-50-ml" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
 												data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 												data-tippy-theme="sharpborder"><i class="ion-android-favorite-outline"></i></a>
 										</span>
@@ -55,74 +55,7 @@
 								</div>
 
 								<!--=======  End of shop product big image gallery  =======-->
-
-								<!--=======  shop product small image gallery  =======-->
-
-								<div class="shop-product__small-image-gallery-wrapper">
-
-									<div class="shop-product__small-image-gallery-slider">
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-1-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-2-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-3-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-4-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/soccer-5-100x100.png" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-1-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-
-										<!--=======  single image  =======-->
-
-										<div class="single-image">
-											<img src="assets/images/shop-product/trendcoat-2-100x100.jpg" class="img-fluid" alt="">
-										</div>
-
-										<!--=======  End of single image  =======-->
-									</div>
-
-								</div>
-
-								<!--=======  End of shop product small image gallery  =======-->
-							</div>
+</div>
 
 							<div class="col-lg-6">
 								<!--=======  shop product description  =======-->
@@ -159,7 +92,7 @@
 									<!--=======  shop product title  =======-->
 
 									<div class="shop-product__title mb-15">
-										<h2>CHRISTIAN BRETON SERUM ELIXIR</h2>
+										<h2>CHRISTIAN BRETON DE LUXE GOLD CREAM</h2>
 									</div>
 
 									<!--=======  End of shop product title  =======-->
@@ -175,8 +108,8 @@
 
 									<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dengan teknologi cryotherapy yang pastinya dapat mengencangkan kulit didaerah mata serta kandungan hyaluronic acid dan matrixyl dapat membantu pertumbuhan regenerasi sel dan memperlambat proses penuaan kulit. </p></div>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Cream</strong> dengan kandungan gold dan caviar dapat menghaluskan dan mencerahan kulit dan dapat merangsang regenerasi sel serta dapat mengurangi bintik-bintik coklat dikulit serta juga dapat mencegah penuaan dini. Christian Breton De Luxe Gold Cream dapat membuat kulitmu selalu berkilau dan cerah </p></div>
 									</div>
 
 									<!--=======  End of shop product buttons  =======-->
@@ -186,8 +119,8 @@
 									<div class="quick-view-other-info pb-0">
 										<!--=======  shop product short description  =======-->
 
-									<div class="shop-product__short-desc mb-50" class="justify">
-										<strong>Christian Breton Serum Elixir</strong> dioleskan didaerah kulit bagian mata setiap hari. Dapat digunakan    sebelum menggunakan sebelum menggunakan rangkaian Gold Series.</p></div>
+									<div class="shop-product__short-desc mb-50" class="justify" style="text-align: justify;">
+										<p><strong>Christian Breton De Luxe Gold Cream</strong> digunakan pagi dan malam hari setalah menggunakan Christian Bretin De Luxe Gold Serum.</p></div>
 									
 
 									<!--=======  End of shop product buttons  =======-->

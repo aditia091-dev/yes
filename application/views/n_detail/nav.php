@@ -1,43 +1,204 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
+</head>
+
 <style type="text/css">
-		.konten1 {
-			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+		/* ----------------------------------------------------
+			FONTS AWESOME
+		-------------------------------------------------------*/
+
+		@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('fonts/fontawesome-webfont.eot?v=4.2.0');
+		  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
 		}
-		.konten2 {
-			background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 770px; margin-bottom: 50px; margin-top: 50px;
+
+		*,
+		*:after,
+		*::before {
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
 		}
-		.konten3 {
-			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+
+		body {
+			font-family: "Yu Gothic ui light", Yu Gothic ui light;
+			margin:0;
+			padding:0;
 		}
-		@media only screen and (min-width: 350px) and (max-width: 767px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 50px; margin-bottom: 50px; margin-top: 50px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
-			}
+
+		/* icons style */
+		#MiniLeftNav .fa, #MiniRightNav .fa, #MiniHorzNav .fa{
+			color:#fff;	
 		}
-		@media only screen and (min-width: 768px) and (max-width: 1023px) {
-		  	.konten1 {
-				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;
-			}
-			.konten2 {
-				background-color: #BA55D3; position: absolute; width: 300px; height: 250px; margin-left: 400px; margin-bottom: 50px; margin-top: 50px;
-			}
-			.konten3 {
-				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
-			}
+		#MiniLeftNav .fa-2x, #MiniRightNav .fa-2x, #MiniHorzNav .fa-2x {
+		    font-size: 1.5em;
+		}
+
+		/* Minimal Vertical Left Navigation */
+		#MiniLeftNav li{
+			list-style: outside none none;
+		    margin: 20px 0;
+		    padding: 0;
+		    width: 48px;
+		}
+		#MiniLeftNav li a{
+			display: block;
+		    padding: 0px;
+		    position: relative;
+		}
+		#MiniLeftNav span {
+			font-family: "Yu Gothic ui light", Yu Gothic ui light;
+			font-size:14px;
+		    font-weight: 400;
+		    letter-spacing: 1px;
+			text-transform: uppercase;
+			
+		    bottom: 5px;
+		    left: 47px;
+		    line-height: 38px;
+		    overflow: hidden;
+		    padding: 0;
+		    position: absolute;
+		    white-space: nowrap;
+		    width: 0;
+			
+			/* CSS3 Transition: */
+			-webkit-transition: 0.50s;
+
+			/* Future proofing (these do not work yet): */
+			-moz-transition: 0.50s;
+			transition: 0.50s;
+		}
+		#MiniLeftNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+		#MiniLeftNav a:hover{text-decoration:none;}
+		#MiniLeftNav a span{
+			background-color:#e9e6eb;
+			color:#3d4f0c;
+		}
+		#MiniLeftNav1 a span{
+			background-color:#fff1dd;
+			color:#3d4f0c;
+		}
+		#MiniLeftNav2 a span{
+			background-color:#fff1dd;
+			color:#3d4f0c;
+		}
+		#MiniLeftNav3 a span{
+			background-color:#fff1dd;
+			color:#3d4f0c;
+		}
+
+		/* Minimal Vertical Right Navigation */
+		#MiniRightNav {
+		    float: right;
+		    margin: 0;
+		    margin-top: 0px;
+		    padding: 0;
+		    margin-top: 12px;
+		}
+		#MiniRightNav li{
+			list-style: outside none none;
+		    margin: 0 0 20px;
+		    padding: 0;
+		    width: 48px;
+		}
+		#MiniRightNav li a{
+			display: block;
+		    padding: 0px;
+		    position: relative;
+		}
+		#MiniRightNav span {
+			font-family: "Yu Gothic ui light", Yu Gothic ui light;
+			font-size:14px;
+		    font-weight: 400;
+		    letter-spacing: 0px;
+			text-transform: uppercase;
+			
+		    bottom: 5px;
+		    right: 47px;
+		    line-height: 38px;
+		    overflow: hidden;
+		    padding: 0;
+		    position: absolute;
+		    transition: all 0.50s ease 0s;
+		    white-space: nowrap;
+		    width: 0;
+		}
+		#MiniRightNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+		#MiniRightNav a:hover{text-decoration:none;}
+
+		#MiniRightNav3 a span{
+			background-color:#fcf7f7;
+			color:#3d4f0c;
+		}
+		#MiniRightNav a span{
+			background-color:#dccca7;
+			color:#3d4f0c;
+		}
+		#MiniRightNav1 a span{
+			background-color:#9372ae;
+			color:#3d4f0c;
+		}
+		#MiniRightNav2 a span{
+			background-color:#f3b8b7;
+			color:#3d4f0c;
+		}
+
+		/* Minimal Horizontal  Navigation */
+		#MiniHorzNav li {
+		    display: inline-block;
+		    list-style: outside none none;
+		    margin: 20px 0;
+		    padding: 0;
+		    width: 48px;
+		}
+		#MiniHorzNav li a{
+		    border:solid 1px #fff;
+			display: block;
+		    padding: 7px;
+		    position: relative;
+		}
+		#MiniHorzNav span {
+			font-family: "Yu Gothic ui light", Yu Gothic ui light;
+			font-size:14px;
+		    font-weight: 400;
+		    letter-spacing: 1px;
+			text-transform: uppercase;
+			
+		    bottom: 0;
+		    left: 47px;
+		    line-height: 38px;
+		    overflow: hidden;
+		    padding: 0;
+		    position: absolute;
+		    transition: all 0.50s ease 0s;
+		    white-space: nowrap;
+		    width: 0;
+		}
+		#MiniHorzNav a:hover span{ width:auto; padding:0 30px;overflow:visible; }
+		#MiniHorzNav a:hover{text-decoration:none;}
+		#MiniHorzNav a span {
+		    background-color: #fff;
+		    color: #3d4f0c;
+		    z-index: 999;
 		}
 		.ikon {
+			height: 5px;
 			width: 100%;
-			position: absolute;
-			margin-top: 20px;
-			margin-left: 20px;
+			position: fixed;
+			margin-top: 10%;
+			z-index: 1;
+		}
+		.ikon-tetap {
+			height: 5px;
+			width: 100%;
+			position: fixed;
+			top: 1;
+			margin-top: 10%;
 		}
 		.ikon1 {
 			margin-top: 20px;
@@ -47,9 +208,8 @@
 		.ikon2 {
 			margin-left: auto;
 			margin-top: 20px;
-			margin-right: 40px;
+			margin-right: 20px;
 			float: right;
-			position: static;
 		}
 
 		.ikon2 a span.img1{
@@ -87,6 +247,67 @@
 		.ikon2 a:hover span.img4{
 			opacity: 100;
 		}
+		html {scroll-behavior:smooth;}
+		.konten1 {
+			background-color: #D2B48C; position: absolute; width: 400px; height: 700px; margin-bottom: 50px; margin-top: 75px;
+		}
+		.konten2 {
+			background-color: #BA55D3; position: absolute; width: 300px; height: 300px; margin-left: 770px; margin-bottom: 50px; margin-top: 50px;
+		}
+		.konten3 {
+			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
+		}
+		@media only screen and (min-width: 350px) and (max-width: 767px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 700px; margin-bottom: 50px; margin-top: 75px;margin-left: -25px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 300px; margin-left: -15px; margin-bottom: 50px; margin-top: 750px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 200px; height: 400px; margin-left: -15px; margin-bottom: 50px; margin-top: -720px;
+			}
+			.desc {
+				width: 200px;
+			}
+			.ikon {
+			  	left: 0px;
+			  	bottom: 65px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon-tetap {
+			  	left: 0px;
+			  	bottom: 65px;
+			  	z-index: 999;
+				width: 100%;
+				position: fixed;
+				z-index: 999;
+			}
+			.ikon1 {
+				margin-top: 0;
+				margin-bottom: 10px: 
+				margin-left: 20px;
+				float: left;
+			}
+			.navtext{
+				margin-right: 20px;
+			}
+		}
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+		  	.konten1 {
+				background-color: #D2B48C; position: absolute; width: 300px; height: 400px; margin-bottom: 50px; margin-top: 75px;
+			}
+			.konten2 {
+				background-color: #BA55D3; position: absolute; width: 250px; height: 250px; margin-left: 475px; margin-bottom: 50px; margin-top: 50px;
+			}
+			.konten3 {
+				background-color: #FFB6C1; position: absolute; max-width: 300px; height: 200px; margin-left: 0px; margin-bottom: 50px; margin-top: 50px;
+			}
+		}
+		
 		.loader3:before,
 		.loader3:after,
 		.loader3 {
@@ -210,29 +431,31 @@
 		    box-shadow: 0 2.5em 0 0 black;
 		  }
 		}
+
+
 	</style>
 	<style type="text/css">
-   .normal { font-weight: normal; }
-   .bold { font-weight: bold; }
-   .bolder { font-weight: bolder; }
-   .lighter { font-weight: lighter; }
-   .number100 { font-weight: 100; }
-   .number200 { font-weight: 200; }
-   .number300 { font-weight: 300; }
-   .number400 { font-weight: 400; }
-   .number500 { font-weight: 500; }
-   .number600 { font-weight: 600; }
-   .number700 { font-weight: 700; }
-   .number800 { font-weight: 800; }
-   .number900 { font-weight: 900; }
-</style>	
+	   .normal { font-weight: normal; }
+	   .bold { font-weight: bold; }
+	   .bolder { font-weight: bolder; }
+	   .lighter { font-weight: lighter; }
+	   .number100 { font-weight: 100; }
+	   .number200 { font-weight: 200; }
+	   .number300 { font-weight: 300; }
+	   .number400 { font-weight: 400; }
+	   .number500 { font-weight: 500; }
+	   .number600 { font-weight: 600; }
+	   .number700 { font-weight: 700; }
+	   .number800 { font-weight: 800; }
+	   .number900 { font-weight: 900; }
+	</style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $title ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
-	<link rel="icon" href="<?php base_url();?>assets/images/favicon.ico">
+	<link rel="icon" href="<?php base_url();?>assets/images/mf/loader.ico">
 
 	<!-- CSS
 	============================================ -->
@@ -259,12 +482,34 @@
 
 	<!-- Modernizer JS -->
 	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="<?php base_url();?>assets/js/vendor/jquery.min.js"></script>
 </head>
 <body>
+	
 	<!--=============================================
 	=            Header offcanvas about         =
 	=============================================-->
+	<?php
+	$ikon_mobile = '<a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"></a><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"></a><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"></a><a class="navtext" href="#"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"></a>';
 
+	$ikon_mobile1= '<ul id="MiniLeftNav"><li><a class="navtext" href="https://www.maztafarma.com/"><img src="'.base_url().'assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span></a></li><ul id="MiniLeftNav1"><li><a class="navtext" href="https://www.tokopedia.com/"><img src="'.base_url().'assets/images/mf/icon/aset-15.png" width="50px"><span>Mazta Farma</span></a></li></ul><ul id="MiniLeftNav2"><li><a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="'.base_url().'assets/images/mf/icon/aset-21.png" width="50px"><span>Tokopedia</span></a></li></ul><ul id="MiniLeftNav3"><li><a class="navtext" href="#"><img src="'.base_url().'assets/images/mf/icon/aset-19.png" width="50px"><span>Shopee</span></a></li></ul></ul>';
+
+	?>
+	<div class="ikon sticky" id="dinamic-ikon" style="display: inline-block;">
+		<div class="ikon1 float-left" id="ikon-mobile">
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		   	if (screen.width>=350 && screen.width<=767) {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile;?>';
+		   	} else {
+		      	document.getElementById("ikon-mobile").innerHTML = '<?php echo $ikon_mobile1;?>';
+		   	}
+		});	
+	</script>
 	<header class="header header-offcanvas-about header-sticky">
 
 		<!--=======  header bottom  =======-->
@@ -354,11 +599,11 @@
 											</li>
 										</ul>
 									</li>-->
-									<li class="menu-item-has-children"><a href="<?php echo site_url('christian/our_p')?>">Our Product</a>
+									<li class="menu-item-has-children"><a href="<?php echo site_url('christianbretonproduct')?>">Our Product</a>
 										<ul class="sub-menu single-column-menu">
-											<li><a href="<?php echo site_url('christian/d_gold')?>">Gold Series</a></li>
-											<li><a href="<?php echo site_url('christian/d_eye')?>">Eye Priority</a></li>
-											<li><a href="<?php echo site_url('christian/d_lips')?>">Lips XL</a></li>
+											<li><a href="<?php echo site_url('gold-series')?>">Gold Series</a></li>
+											<li><a href="<?php echo site_url('eye-priority')?>">Eye Priority</a></li>
+											<li><a href="<?php echo site_url('lips-xl')?>">Lips XL</a></li>
 										</ul>
 									</li>
 
@@ -371,7 +616,7 @@
 									</li>
 
 									<li>
-										<a href="<?php echo site_url('christian/contactus')?>">Contact Us</a>
+										<a href="<?php echo site_url('contactus')?>">Contact Us</a>
 										<!--<a href="<?php echo site_url('christian/contactus')?>">Contact Us</a>-->
 									</li>
 										</ul>
@@ -452,178 +697,37 @@
 						</button>
 						<!--Site Mobile Menu Toggle End-->
 						<ul class="dl-menu dl-menu-toggle">
-							<li class=""><a href="#">Home</a>
-								<ul class="dl-submenu">
-									<li class=""> <a href="#">Home Group One</a>
-										<ul class="dl-submenu">
-											<li><a href="index-trending.html">Trending</a></li>
-											<li><a href="index-collection.html">My collection</a></li>
-											<li><a href="index-special.html">Special</a></li>
-											<li><a href="index-concept.html">concept</a></li>
-											<li><a href="index-smart.html">smart design</a></li>
-										</ul>
-									</li>
-									<li> <a href="#">Home Group Two</a>
-										<ul class="dl-submenu">
-											<li><a href="index-furniture.html">Furniture </a></li>
-											<li><a href="index-essentials.html">Essentials</a></li>
-											<li><a href="index-lookbook.html">Lookbook</a></li>
-											<li><a href="index-wearables.html">Wearables</a></li>
-											<li><a href="index-accessories.html">Accessories</a></li>
-										</ul>
-									</li>
-									<li> <a href="#">Home Group three</a>
-										<ul class="dl-submenu">
-											<li><a href="index-shoppable.html">Shoppable</a></li>
-
-											<li><a href="index-fashion.html">Fashion</a></li>
-											<li><a href="index-perfumes.html">Perfumes</a></li>
-											<li><a href="index-cosmetics.html">Cosmetics</a></li>
-										</ul>
-									</li>
-									<li> <a href="#">Home Group four</a>
-										<ul class="dl-submenu">
-											<li><a href="index-decor.html">Home Decor</a></li>
-											<li><a href="index-creative.html">Creative</a></li>
-										</ul>
-									</li>
-								</ul>
+							<li><a href="<?php echo site_url('christian')?>">Home</a>
 							</li>
 
-							<li><a href="#">Shop</a>
+							<li><a href="#">Our Product</a>
 								<ul class="dl-submenu">
-									<li class=""> <a href="#">Shop Pages</a>
-										<ul class="dl-submenu">
-											<li><a href="shop-no-sidebar.html">Shop No Sidebar</a></li>
-											<li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-											<li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-											<li><a href="shop-fullwidth-no-space.html">Shop Fullwidth No Space</a></li>
-											<li><a href="shop-fullwidth-no-sidebar.html">Shop Fullwidth No Sidebar</a></li>
-											<li><a href="shop-fullwidth-left-sidebar.html">Shop Fullwidth Left Sidebar</a></li>
-											<li><a href="shop-fullwidth-right-sidebar.html">Shop Fullwidth Right Sidebar</a></li>
-										</ul>
+									<li class=""> <a href="<?php echo site_url('gold-series')?>">Gold Series</a>
 									</li>
-									<li class=""> <a href="#">Product Details Pages</a>
+									<li><a href="<?php echo site_url('eye-priority')?>">Eyes Priority</a></li>
 										<ul class="dl-submenu">
-											<li><a href="shop-product-basic.html">Basic </a></li>
-											<li><a href="shop-product-fullwidth.html">Fullwidth</a></li>
-											<li><a href="shop-product-sticky-details.html">Sticky details</a></li>
-											<li><a href="shop-product-with-sidebar.html">With Sidebar</a></li>
-											<li><a href="shop-product-extra-content.html">Extra Content</a></li>
-											<li><a href="shop-product-variation-image.html">Variation Image</a></li>
-											<li><a href="shop-product-bought-together.html">Bought Together</a></li>
-
-
 										</ul>
-									</li>
-									<li class=""> <a href="#">Other Shop Pages</a>
-										<ul class="dl-submenu">
-											<li><a href="shop-product-with-background.html">Product with background</a></li>
-											<li><a href="shop-cart.html">Shopping Cart</a></li>
-											<li><a href="shop-checkout.html">Checkout</a></li>
-											<li><a href="shop-order-tracking.html">Order Tracking</a></li>
-											<li><a href="shop-wishlist.html">Wishlist</a></li>
-											<li><a href="shop-customer-login.html">Customer Login</a></li>
-											<li><a href="shop-by-brand.html">Shop by Brand</a></li>
-
-										</ul>
+										<li>
+											<li>
+												<a href="<?php echo site_url('lips-xl')?>">Lips XL</a>
+											</li></li></li>
 									</li>
 
 
 								</ul>
 							</li>
-							<li><a href="#">Elements</a>
+							<li><a href="#">Digital shop</a>
 								<ul class="dl-submenu">
-									<li class=""> <a href="#">Shop / Products</a>
-										<ul class="dl-submenu">
-											<li><a href="element-product-categories.html">Product Categories</a></li>
-											<li><a href="element-product-sliders.html">Product Sliders</a></li>
-											<li><a href="element-product-tabs.html">Product Tabs</a></li>
-											<li><a href="element-product-widget.html">Product Widget</a></li>
-											<li><a href="element-recent-products.html">Recent Products</a></li>
-										</ul>
-									</li>
-									<li class=""> <a href="#">Shop / Products</a>
-										<ul class="dl-submenu">
-											<li><a href="element-sale-products.html">Sale Products </a></li>
-											<li><a href="element-featured-products.html">Featured products</a></li>
-											<li><a href="element-top-rated-products.html">Top Rated products</a></li>
-											<li><a href="element-bestselling-products.html">Best Selling products</a></li>
-											<li><a href="element-product-attributes.html">Product Attributes</a></li>
-										</ul>
-									</li>
-									<li class=""> <a href="#">Theming</a>
-										<ul class="dl-submenu">
-											<li><a href="element-blog-posts.html">Blog Posts</a></li>
-											<li><a href="element-mailchimp-form.html">Mailchimp Form</a></li>
-											<li><a href="element-icon-box.html">Icon Box</a></li>
-											<li><a href="element-team-member.html">Team Member</a></li>
-											<li><a href="element-instagram.html">Instagram</a></li>
-
-										</ul>
-									</li>
+									<li><a href="https://www.maztafarma.com/">Mazta Farma</a></li>
+									<li> <a href="https://www.tokopedia.com/">Tokopedia</a>
+									<li> <a href="https://www.shopee.com/">Shopee</a></li>
 
 
 								</ul>
 							</li>
-							<li><a href="#">Pages</a>
-								<ul class="dl-submenu">
-									<li><a href="about-us.html">About Us</a></li>
-									<li><a href="about-us-2.html">About Us 2</a></li>
-									<li><a href="contact-us.html">Contact Us</a></li>
-									<li><a href="faq.html">F.A.Q</a></li>
-									<li><a href="coming-soon.html">Coming Soon</a></li>
-									<li><a href="404.html">404</a></li>
-									<li><a href="my-account.html">My account</a></li>
-									<li><a href="compare.html">Compare</a></li>
-								</ul>
+							<li><a href="<?php echo site_url('contactus')?>">Contact Us</a>
 							</li>
-							<li><a href="#">Blog</a>
-								<ul class="dl-submenu">
-									<li><a href="#">Standard Layout</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-standard-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-standard-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-standard-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Grid Layout</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-grid-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-grid-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-grid-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-									<li><a href="#">List Layout</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-list-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-list-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Masonry Layout</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-masonry-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-masonry-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-masonry-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-									<li><a href="#">1st Full Then Grid</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-full-then-grid-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-full-then-grid-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-full-then-grid-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Single Post Layout</a>
-										<ul class="dl-submenu">
-											<li><a href="blog-single-post-right-sidebar.html">Right Sidebar</a></li>
-											<li><a href="blog-single-post-left-sidebar.html">Left Sidebar</a></li>
-											<li><a href="blog-single-post-full-width.html">Full Width</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
