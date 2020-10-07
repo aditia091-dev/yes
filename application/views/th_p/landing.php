@@ -528,21 +528,21 @@
 		<div class="ikon2 float-right">
 			<ul id="MiniRightNav">
 				<li>
-	                <a class="navtext" href="<?php echo site_url('gold-series')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px"><span>Gold Series</span></a>
+	                <a class="navtext" href="<?php echo site_url('gold-series')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-11.png" width="50px"><span style="color:white;"><strong>Gold Series</span></a></strong>
 	            </li>
 	            <ul id="MiniRightNav1">
 					<li>
-		                <a class="navtext" href="<?php echo site_url('eye-priority')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px"><span>Eye Priority</span></a>
+		                <a class="navtext" href="<?php echo site_url('eye-priority')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-12.png" width="50px"><span style="color:white;"><strong>Eye Priority</span></a></strong>
 		            </li>
 		        </ul>
 	            <ul id="MiniRightNav2">
 		            <li>
-		                <a class="navtext" href="<?php echo site_url('lips-xl')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px"> <span>Lips XL</span></a>
+		                <a class="navtext" href="<?php echo site_url('lips-xl')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-13.png" width="50px"> <span style="color:white;"><strong>Lips XL</span></a></strong>
 		            </li>
 		        </ul>
 	            <ul id="MiniRightNav3">
 		            <li>
-		                <a class="navtext" href="<?php echo site_url('contactus')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px"><span>Contact Us</span></a>
+		                <a class="navtext" href="<?php echo site_url('contactus')?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-17.png" width="50px"><span style="color:white;"><strong>Contact Us</span></a></strong>
 		            </li>
 		        </ul>
 	        </ul>
