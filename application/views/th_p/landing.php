@@ -197,7 +197,7 @@
 			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
 		}
 		.ikon {
-			height: 5px;
+			height: 10px;
 			width: 100%;
 			position: fixed;
 			margin-top: 20px;
@@ -206,6 +206,7 @@
 		}
 		.ikon-tetap {
 			height: 5px;
+			height: 10px;
 			height: 10px;
 			width: 100%;
 			position: fixed;
