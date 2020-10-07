@@ -25,7 +25,7 @@
 
 									<div class="shop-product-rightside-icons">
 										<span class="wishlist-icon">
-											<a href="#" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
+											<a href="https://www.tokopedia.com/christianbretoni/christian-breton-paris-serum-elixir-botol-15-ml" data-tippy="Add to wishlist" data-tippy-placement="left" data-tippy-inertia="true"
 												data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
 												data-tippy-theme="sharpborder"><i class="ion-android-favorite-outline"></i></a>
 										</span>

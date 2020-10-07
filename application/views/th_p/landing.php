@@ -518,7 +518,7 @@
 	            </ul>
                 <ul id="MiniLeftNav3">
 	                <li>
-	                     <a class="navtext" href="https://shopee.co.id/?gclid=Cj0KCQjw5eX7BRDQARIsAMhYLP_QFNz-IgwiFLnS5DkA_mM-kvIZ7h3BRx7cKg7VIqw0azx1mMhnKboaAhEwEALw_wcB"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
+	                     <a class="navtext" href="https://shopee.co.id/christianbreton.id"><img src="<?= base_url();?>assets/images/mf/icon/aset-19.png" width="50px">
 	                        <span>Shopee</span>
 	                     </a>
 	                </li>
