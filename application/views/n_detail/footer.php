@@ -1,4 +1,4 @@
-
+<?php $this->load->view('th_p/instagram_int') ?>
 	<!--=============================================
 	=            footer area         =
 	=============================================-->
@@ -76,7 +76,7 @@
 						<nav>
 							<ul>
 								<li><a href="http://facebook.com/"> <i class="fa fa-facebook"></i> Facebook</a></li>
-								<li><a href="http://instagram.com/"><i class="fa fa-instagram"></i> Instagram</a></li>
+								<li><a href="https://instagram.com/stories/chbreton_indonesia/2414348618691304154?igshid=6f3gt40znju7"><i class="fa fa-instagram"></i> Instagram</a></li>
 								<li><a href="http://youtube.com/"> <i class="fa fa-youtube"></i> Youtube</a></li>
 							</ul>
 						</nav>

@@ -624,4 +624,5 @@
 	<!--=====  End of slider area  ======-->
 
 <?php $this->load->view('th_p/content') ?>
+<?php $this->load->view('th_p/instagram_int') ?>
 <?php $this->load->view('th_p/footer') ?>
