@@ -511,7 +511,7 @@
 	            </ul>
                 <ul id="MiniLeftNav2">
 	                <li>
-	                     <a class="navtext" href="https://www.tokopedia.com/"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px">
+	                     <a class="navtext" href="https://www.tokopedia.com/christianbretoni?source=universe&st=product"><img src="<?= base_url();?>assets/images/mf/icon/aset-21.png" width="50px">
 	                        <span>Tokopedia</span>
 	                     </a>
 	                </li>
