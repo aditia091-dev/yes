@@ -197,27 +197,33 @@
 			background-color: #FFB6C1; position: absolute; width: 500px; height: 400px; margin-left: 65px; margin-bottom: 50px; margin-top: 150px;
 		}
 		.ikon {
+			height: 10px;
 			width: 100%;
 			position: fixed;
 			margin-top: 20px;
-			z-index: 1;
 			display: inline-block;
+			z-index: 999;
 		}
 		.ikon-tetap {
+			height: 10px;
+			height: 10px;
 			width: 100%;
 			position: fixed;
 			margin-top: 20px;
+			z-index: 999;
 		}
 		.ikon1 {
 			margin-top: 10px;
 			margin-left: 20px;
 			float: left;
+			
 		}
 		.ikon2 {
 			margin-left: auto;
 			margin-top: 20px;
 			margin-right: 20px;
 			float: right;
+
 		}
 
 		.ikon2 a span.img1{
@@ -496,7 +502,7 @@
     =            slider area         =
     =============================================-->
 	<div class="ikon sticky" id="dinamic-ikon" style="">
-		<div class="ikon1 float-left" id="ikon-mobile">
+		<div class="ikon1 float-left" id="ikon-mobile" style="z-index: 999;">
 			<ul id="MiniLeftNav">
                 <li>
                     <a class="navtext" href="<?php echo base_url();?>"><img src="<?= base_url();?>assets/images/mf/icon/aset-home.png" width="50px"><span>Home</span>
@@ -576,7 +582,7 @@
 						data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
 						data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgcolor='#f8f8f8' style='background:#f8f8f8; position: relative;max-width: 200px;' alt=""
+						<img src="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgcolor='#f8f8f8' style='background:#f8f8f8; position: relative;max-width: 200px;z-index: 9;' alt=""
 							data-lazyload="<?php base_url();?>assets/images/mf/slide/banner.png" data-bgposition="center center" data-bgfit="cover"
 							data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 						

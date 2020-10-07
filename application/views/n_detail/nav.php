@@ -187,12 +187,14 @@
 		    z-index: 999;
 		}
 		.ikon {
+			height: 5px;
 			width: 100%;
 			position: fixed;
 			margin-top: 10%;
 			z-index: 1;
 		}
 		.ikon-tetap {
+			height: 5px;
 			width: 100%;
 			position: fixed;
 			top: 1;
@@ -270,7 +272,7 @@
 			}
 			.ikon {
 			  	left: 0px;
-			  	bottom: 20px;
+			  	bottom: 65px;
 			  	z-index: 999;
 				width: 100%;
 				position: fixed;
@@ -278,14 +280,14 @@
 			}
 			.ikon-tetap {
 			  	left: 0px;
-			  	bottom: 20px;
+			  	bottom: 65px;
 			  	z-index: 999;
 				width: 100%;
 				position: fixed;
 				z-index: 999;
 			}
 			.ikon1 {
-				margin-top: auto;
+				margin-top: 0;
 				margin-bottom: 10px: 
 				margin-left: 20px;
 				float: left;
