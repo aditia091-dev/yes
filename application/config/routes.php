@@ -58,5 +58,19 @@ $route['contactus'] = 'Christian/contactus';
 $route['lips-xl'] = 'Christian/d_lips';
 $route['eye-priority'] = 'Christian/d_eye';
 $route['gold-series'] = 'Christian/d_gold';
+
+//Admin
+$route['administrator'] = 'Admin/Login';
+$route['proses-login'] = 'Admin/Login/proses';
+$route['logout'] = 'Admin/Login/logout';
+$route['dashboard'] = 'Admin/Dashboard';
+$route['admin'] = 'Admin/Admin';
+$route['tambah-admin']              = 'Admin/Admin/tambah';
+$route['edit-admin/(:any)']         = 'Admin/Admin/edit/$1';
+$route['hapus-admin']               = 'Admin/Admin/hapus';
+$route['profile']             = 'Admin/Profile';
+$route['setting']             = 'Admin/Profile/setting';
+$route['change-password']     = 'Admin/Profile/password';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
