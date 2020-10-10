@@ -58,19 +58,28 @@ $route['contactus'] = 'Christian/contactus';
 $route['lips-xl'] = 'Christian/d_lips';
 $route['eye-priority'] = 'Christian/d_eye';
 $route['gold-series'] = 'Christian/d_gold';
+$route['product/(:any)'] = 'Christian/product/$1';
 
 //Admin
-$route['administrator'] = 'Admin/Login';
-$route['proses-login'] = 'Admin/Login/proses';
-$route['logout'] = 'Admin/Login/logout';
-$route['dashboard'] = 'Admin/Dashboard';
-$route['admin'] = 'Admin/Admin';
+$route['administrator'] 			= 'Admin/Login';
+$route['proses-login'] 				= 'Admin/Login/proses';
+$route['logout'] 					= 'Admin/Login/logout';
+$route['dashboard'] 				= 'Admin/Dashboard';
+$route['admin']						= 'Admin/Admin';
 $route['tambah-admin']              = 'Admin/Admin/tambah';
 $route['edit-admin/(:any)']         = 'Admin/Admin/edit/$1';
 $route['hapus-admin']               = 'Admin/Admin/hapus';
-$route['profile']             = 'Admin/Profile';
-$route['setting']             = 'Admin/Profile/setting';
-$route['change-password']     = 'Admin/Profile/password';
+$route['profile']             		= 'Admin/Profile';
+$route['setting']             		= 'Admin/Profile/setting';
+$route['change-password']     		= 'Admin/Profile/password';
+$route['kategori'] 					= 'Admin/Kategori';
+$route['tambah-kategori']           = 'Admin/Kategori/tambah';
+$route['edit-kategori/(:any)']      = 'Admin/Kategori/edit/$1';
+$route['hapus-kategori']            = 'Admin/Kategori/hapus';
+$route['detail-kategori/(:any)/(:any)']		= 'Admin/Kategori/detail/$1/$2';
+$route['tambah-konten/(:any)/(:any)']       = 'Admin/Kategori/tambah_konten/$1/$2';
+$route['edit-konten/(:any)/(:any)/(:any)']  = 'Admin/Kategori/edit_konten/$1/$2/$3';
+$route['hapus-konten']		= 'Admin/Kategori/hapus_konten';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

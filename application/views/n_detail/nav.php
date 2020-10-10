@@ -601,9 +601,9 @@
 									</li>-->
 									<li class="menu-item-has-children"><a href="<?php echo site_url('christianbretonproduct')?>">Our Product</a>
 										<ul class="sub-menu single-column-menu">
-											<li><a href="<?php echo site_url('gold-series')?>">Gold Series</a></li>
-											<li><a href="<?php echo site_url('eye-priority')?>">Eye Priority</a></li>
-											<li><a href="<?php echo site_url('lips-xl')?>">Lips XL</a></li>
+											<?php foreach ($data_category as $c) :?>
+												<li><a href="<?php echo site_url('product/'.$c['tag'])?>"><?= $c['kategori'] ?></a></li>
+											<?php endforeach; ?>
 										</ul>
 									</li>
 

@@ -613,9 +613,7 @@
 							data-frames='[{"delay":700,"speed":1330,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 							data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
 							data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-							style="z-index: 9;"><img src="assets/images/revimages/dummy.png" alt=""
-								data-ww="['511auto','454px','390px','297px']" data-hh="['215px','191px','164px','125px']"
-								data-lazyload="assets/images/revimages/cosmetics/slider-homepage14-img8.png" data-no-retina> </div>
+							style="z-index: 9;"> </div>
 					</li>
 				</ul>
 

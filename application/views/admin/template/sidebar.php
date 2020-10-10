@@ -78,7 +78,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('konten'); ?>" class="nav-link <?= $title == 'Kelola Konten' ? 'active' : ''; ?>">
+            <a href="<?= base_url('kategori'); ?>" class="nav-link <?= $title == 'Kelola Kategori Konten' ? 'active' : ''; ?>">
               <i class="nav-icon fas fa-edit"></i>
               <p>Kelola Konten</p>
             </a>

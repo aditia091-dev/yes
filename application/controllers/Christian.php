@@ -25,6 +25,14 @@ class Christian extends CI_Controller {
 		$data = array(	'title'		=> 'Christian Breton Indonesia | Lips XL');
 		$this->load->view('landing/home',$data);
 	}
+	public function product($tag)
+	{
+		$data['data_category'] = $this->M_kategori->get_data();
+		$data['category'] = $this->M_kategori->get_by_tag($tag);
+		$data['product'] = $this->M_konten->get_data_by_tag($tag);
+		$data['title'] = $data['category']['kategori'].' | Christian Breton Indonesia ';
+		$this->load->view('n_detail/product',$data);
+	}
 	public function d_gold()
 	{
 		$data = array(	'title'		=> 'Gold Series | Christian Breton Indonesia ');

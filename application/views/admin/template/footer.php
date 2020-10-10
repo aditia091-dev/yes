@@ -54,6 +54,7 @@
     <script src="<?= base_url(); ?>assets/backend/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
     <script src="<?= base_url(); ?>assets/backend/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
     <script src="<?= base_url(); ?>assets/backend/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="<?= base_url();?>assets/backend/plugins/jscolor/jscolor.js"></script>
     <script>
       $(function () {
         $("#example1").DataTable({
@@ -67,9 +68,13 @@
           "ordering": true,
           "info": true,
           "autoWidth": false,
-          "responsive": true,
         });
+          "responsive": true,
       });
+
+      jscolor.presets.default = {
+        format:'hex'
+      };
     </script>
       <script>
         $(document).ready(function() {
