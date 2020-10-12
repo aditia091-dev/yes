@@ -190,7 +190,7 @@
 											</tr>
 										</table>
 									</div>
-								<a href="<?php echo site_url('christian/d_gold')?>" class="lezada-button lezada-button--medium lezada-button--icon--left"> 
+								<a href="<?php echo site_url('product/gold-series')?>" class="lezada-button lezada-button--medium lezada-button--icon--left"> 
 									<i class="icon-left ion-plus"></i> Learn More</a>
 									<!--=======  End of other info table  =======-->
 								</div>
